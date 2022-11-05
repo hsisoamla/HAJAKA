@@ -1,0 +1,73 @@
+{
+  "creds": {
+    "noiseKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "EErK37fGofITVRQ7NAJwHuTVEVcNHD+Jh+h13IZbdFI="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "j22OgcCsrWNGr9XnBGiqkKSJ2c8AMXZlJOQEcVjF7SM="
+      }
+    },
+    "signedIdentityKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "cKiUqc8njh4gTmLacqkU285H0rolfklpBsadfLeflX4="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "fclL0bmpLAupQ1YncH+zaZSWWCJLSc+qze/WpNzch3M="
+      }
+    },
+    "signedPreKey": {
+      "keyPair": {
+        "private": {
+          "type": "Buffer",
+          "data": "oFfIqD05ZwDAm93dNYHFMj/DnfKs7R85bACgUKmBdmk="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "Nswv3nYazbT1ue2q8Ba6ffHVeGOVIQCuo537kGi94wc="
+        }
+      },
+      "signature": {
+        "type": "Buffer",
+        "data": "KrpApokHG1018lY8wzYyKOhQBWSnNUyD8TwukHYnPO61U4X6uWFB54R4Uwz4WnfXjyyhPHezPU/hzoFR4gjRDw=="
+      },
+      "keyId": 1
+    },
+    "registrationId": 203,
+    "advSecretKey": "UEN9fleQyvPHZsNb6bT9yQAdhfQlWgWxl0YWMpzUoCk=",
+    "processedHistoryMessages": [],
+    "nextPreKeyId": 1,
+    "firstUnuploadedPreKeyId": 1,
+    "accountSettings": {
+      "unarchiveChats": false
+    },
+    "account": {
+      "details": "CPrExZwHENL9o5oGGAE=",
+      "accountSignatureKey": "mWGEoA8W0XdTjpDUrK44gOQZHS6hHbvKEG4C9kegb1I=",
+      "accountSignature": "ypAtEa6e/yfdHqDX3vliTKP+kQeZa51KETNfDxf24S2vBXO0wMgF8AoDfMKFjNGKiB7JuzkooCcp34yrbUaKDg==",
+      "deviceSignature": "pRy3Sewrt5QocJjMSF0QfMbAfyAkC2LuohiSUZzYcEBd5IA3YNBmChfH5WrG/tjxwY55tcc4yMVo2faQFXcHDw=="
+    },
+    "me": {
+      "id": "6288215716049:20@s.whatsapp.net"
+    },
+    "signalIdentities": [
+      {
+        "identifier": {
+          "name": "6288215716049:20@s.whatsapp.net",
+          "deviceId": 0
+        },
+        "identifierKey": {
+          "type": "Buffer",
+          "data": "BZlhhKAPFtF3U46Q1KyuOIDkGR0uoR27yhBuAvZHoG9S"
+        }
+      }
+    ],
+    "platform": "android",
+    "lastAccountSyncTimestamp": 1665728214
+  },
+  "keys": {}
+}
