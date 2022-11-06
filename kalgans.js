@@ -2,7 +2,7 @@
 › Create By Haikal
 › Base Ori Haikal
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : 𝐛𝐚𝐧𝐠𝐡𝐰☆ */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : ☆𝐝𝐢𝐤𝐳𝐱⏧☆ */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -150,9 +150,9 @@ if (anu.action == 'add') {
 var buffer = await getBuffer(ppuser)
 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://youtube.com/c/HwModsWa857`
+let link = `https://eclass.iainsalatiga.ac.id/app/upload/users/1/10892/my_files/XhiroMhonshine.html`
 let buttons = [
-{buttonId: `𝐛𝐚𝐧𝐠𝐡𝐰☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `☆𝐝𝐢𝐤𝐳𝐱⏧☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -162,12 +162,12 @@ mentions: [num],
 fileName: `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© 𝐛𝐚𝐧𝐠𝐡𝐰☆`,
+footer: `© ☆𝐝𝐢𝐤𝐳𝐱⏧☆`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE 𝐛𝐚𝐧𝐠𝐡𝐰☆`,
+body: `SUBSCRIBE ☆𝐝𝐢𝐤𝐳𝐱⏧☆`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -177,9 +177,9 @@ haikal.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 } else if (anu.action == 'remove') {
 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `SELAMAT TINGGAL KAWAN 👋 ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://youtube.com/c/HwModsWa857`
+let link = `https://eclass.iainsalatiga.ac.id/app/upload/users/1/10892/my_files/XhiroMhonshine.html'`
 let buttons = [
-{buttonId: `𝐛𝐚𝐧𝐠𝐡𝐰☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `☆𝐝𝐢𝐤𝐳𝐱⏧☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -189,12 +189,12 @@ mentions: [num],
 fileName: `SELAMAT TINGGAL 👋 ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© 𝐛𝐚𝐧𝐠𝐡𝐰☆`,
+footer: `© ☆𝐝𝐢𝐤𝐳𝐱⏧☆`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE 𝐛𝐚𝐧𝐠𝐡𝐰☆`,
+body: `SUBSCRIBE ☆𝐝𝐢𝐤𝐳𝐱⏧☆`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -261,7 +261,7 @@ return status}
 //=================================================//
 
 //Kalau Mau Self Lu Buat Jadi False
-haikal.public = true
+haikal.public = false
 //=================================================//
 haikal.serializeM = (m) => smsg(haikal, m, store)
 haikal.ev.on('connection.update', async (update) => {
