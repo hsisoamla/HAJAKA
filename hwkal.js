@@ -22,8 +22,8 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
 global.youtube = 'viwa.com' // ubah aia
-global.ig = 'https://www.instagram.com/hikal_857/?hl=id' // ubah aja
-global.email = 'denyp857@gmail.com'
+global.ig = 'viwa.com' // ubah aja
+global.email = 'kris.crawford@minutestep.com'
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = '☆𝐯𝐢𝐰𝐚⏧☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
