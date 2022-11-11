@@ -1037,7 +1037,6 @@ templateButtons: [
 { quickReplyButton: { displayText: `HW MODS WA`, id: `KILL`}},
 ], 
  })
- }
  break
 //=================================================//
 case 'banghwbug3': case 'banghwcrash2': case 'crashar12': {
