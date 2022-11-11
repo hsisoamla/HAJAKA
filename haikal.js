@@ -1001,6 +1001,43 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 }
 }
 break
+case 'jadijago': {
+if (!isCreator) return
+if (isBan) throw sticBanLu(from)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
+let teks = `${q}`
+for (let i of teks) {
+ var message = {
+                document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
+"fileName": `🔥 ${teks} ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
+                caption: ` ${teks}  ${buttonkal}`,
+                footer: ` ${teks} `,
+                mentions: "",
+                templateButtons: [{ urlButton: {displayText: 'COPY', url: 'www.xnxxhwmods.com'}}, { quickReplyButton: { displayText: 'CLICK BUTTON COPY',id: '⚔️'}},
+{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🗡️'}},
+{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🛡️'}},
+{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🪞'}}],
+				headerType: 6
+                }
+                haikal.sendMessage(m.chat, message, { quoted : m })
+                }
+                }
+                break
+
+case '⚔️': case '🗡️': case '🛡️': case '🪞': {
+if (!isCreator) return
+if (isBan) throw sticBanLu(from)
+templateButtons: [
+{ callButton: { displayText: `Number`, phoneNumber: `6281214281312`}},
+{ urlButton: { displayText: `Owner`, url: 'https://wa.me/6281214281312'}},
+{ urlButton: { displayText: `Website`, url: 'www.xnxx.com'}},
+{ quickReplyButton: { displayText: `MY`, id: `HW MODS WA`}},
+{ quickReplyButton: { displayText: `NAME`, id: `HAIKAL`}},
+{ quickReplyButton: { displayText: `HW MODS WA`, id: `KILL`}},
+], 
+ })
+ }
+ break
 //=================================================//
 case 'banghwbug3': case 'banghwcrash2': case 'crashar12': {
 if (!isCreator) return
@@ -4567,49 +4604,42 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ◎ Lib : Multi-De𝐯ice
 ◎ Version 10
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-╭━━❍°banghw°͢❍━━╮
-┃╭━━━━━━━━━━━━━━━━╾•
-┃┃   ❍ Menu Bug ❍
-┃╰━━━━━━━━━━━━━━━━╾•
-┃ ┃ ╭┈────────────╮
-┃ ┃│⃟•╾ Bugmenu➢
-┃ ┃ ╰┈────────────╯
-╰━━╼⃟݊⃟̥⃝̇݊݊⃟ °banghw°݊⃟̥⃝̇݊⃟╾━━╯
+┏━━⊱
+┣❏ Bugmenu  ➥ 
+┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-╭━━❍°banghw°͢❍━━╮
-┃ ╭━━━━━━━━━━━━━━━━╮
-┃ ┃ ╭┈────────────╮
-┃ ┃ │ ❍ Menu_Auto ❍
-┃ ┃ ╰┈────────────╯
-┃ ╰━━━━━━━━━━━━━━━━╯
-┃╭━━━━━━━━━━━━━━━━╾•
-┃│⃟•╾ Autoketik on / off
-┃│⃟•╾ Autovn on / off
-┃│⃟•╾ Autoavailable on / off
-┃│⃟•╾ Welcome on / off [ Crash ]
-┃╰━━━━━━━━━━━━━━━╯
-┣━━━╼⃟݊⃟̥⃝̇݊݊⃟°banghw°݊⃟̥⃝̇݊⃟╾━━━•
-┃╭━━━━━━━━━━━━━━━━╾•
-┃┃   ❍ Menu Mods ❍
-┃╰━━━━━━━━━━━━━━━━╾•
-┃╭━━━━━━━━━━━━━━━━╾•
-┃│⃟•╾ Scraperimage➢
-┃│⃟•╾ Asupanmata➢
-┃│⃟•╾ Scrapconvert➢
-┃│⃟•╾ Nsfw➢
-┃│⃟•╾ Soundbot➢
-┃│⃟•╾ Funnmenu➢
-┃│⃟•╾ Primbonmenu➢
-┃│⃟•╾ Islamiyah➢
-┃│⃟•╾ Voicechanger➢
-┃│⃟•╾ Beritanews➢
-┃│⃟•╾ Cmdmenu➢
-┃│⃟•╾ Searchmenu➢
-┃│⃟•╾ Groupmenu➢
-┃│⃟•╾ Downloadmenu➢
-┃│⃟•╾ Ownermenu➢
-┃╰━━━━━━━━━━━━━━━╯
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟ °banghw°݊⃟̥⃝̇݊⃟╾━━━╯
+┏━━⊱
+┣❏➥ ❍ Menu_Auto ❍
+┗━━⊱
+ ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
+┏━━⊱
+┣❏ Autoketik on / off  ➥ 
+┣❏ Autovn on / off  ➥ 
+┣❏ Autoavailable on / off  ➥ 
+┣❏ Welcome on / off [ Crash ]  ➥ 
+┗━━⊱
+ ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
+┏━━⊱
+┣❏➥ ❍ Menu Mods ❍
+┗━━⊱
+ ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
+┏━━⊱
+┣❏ Scraperimage  ➥ 
+┣❏ Asupanmata  ➥ 
+┣❏ Scrapconvert  ➥ 
+┣❏ Nsfw  ➥ 
+┣❏ Soundbot  ➥ 
+┣❏ Funnmenu  ➥ 
+┣❏ Primbonmenu  ➥ 
+┣❏ Islamiyah  ➥ 
+┣❏ Voicechanger  ➥ 
+┣❏ Beritanews  ➥ 
+┣❏ Cmdmenu  ➥ 
+┣❏ Searchmenu  ➥ 
+┣❏ Groupmenu  ➥ 
+┣❏ Downloadmenu  ➥ 
+┣❏ Ownermenu  ➥ 
+┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 © °banghw°͢`, contextInfo:{"externalAdReply": {"title": `SC °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
@@ -4631,350 +4661,341 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ^BUG BOT VIP^
 ^BY : ${botname}^
-╔══════[ BUG ]══════⊱
-╠➤💀 [ jumlah ]
-╠➤👽 [ jumlah ]
-╠➤☠ [ jumlah ]
-╠➤️👾 [ jumlah ]
-╠➤🪐 [ jumlah ]
-╠➤🦴 [ jumlah ]
-╠➤☝ [ jumlah ]
-╠➤🏻 [ jumlah ]
-╠➤🦖 [ jumlah ]
-╠➤🦕 [ jumlah ]
-╠➤👿 [ jumlah ]
-╠➤🐉 [ jumlah ]
-╠➤⚡ [ jumlah ]
-╠➤💥 [ jumlah ]
-╠➤🔥 [ jumlah ]
-╠➤🌪️ [ jumlah ]
-╠➤🍂 [ jumlah ]
-╠➤🍃 [ jumlah ]
-╠➤🌴 [ jumlah ]
-╠➤🌿 [ jumlah ]
-╠➤🍀 [ jumlah ]
-╠➤🪵 [ jumlah ]
-╠➤🦥 [ jumlah ]
-╠➤🌳 [ jumlah ]
-╠➤🍁 [ jumlah ]
-╠➤🎋 [ jumlah ]
-╠➤🥜 [ jumlah ]
-╠➤🌰 [ jumlah ]
-╠➤🥔 [ jumlah ]
-╠➤🧄 [ jumlah ]
-╠➤🍆 [ jumlah ]
-╠➤🥑 [ jumlah ]
-╠➤🫑 [ jumlah ]
-╠➤🥬 [ jumlah ]
-╠➤🥒 [ jumlah ]
-╠➤🥦 [ jumlah ]
-╠➤🌽 [ jumlah ]
-╠➤🧅 [ jumlah ]
-╠➤🍠 [ jumlah ]
-╠➤🥕 [ jumlah ]
-╠➤🌶️ [ jumlah ]
-╠➤🍅 [ jumlah ]
-╠➤🥥 [ jumlah ]
-╠➤🍇 [ jumlah ]
-╠➤🫐 [ jumlah ]
-╠➤🫒 [ jumlah ]
-╠➤🥝 [ jumlah ]
-╠➤🍐 [ jumlah ]
-╠➤🍏 [ jumlah ]
-╠➤🍈 [ jumlah ]
-╠➤🍋 [ jumlah ]
-╠➤🍌 [ jumlah ]
-╠➤🍍 [ jumlah ]
-╠➤🥭 [ jumlah ]
-╠➤🍊 [ jumlah ]
-╠➤🍑 [ jumlah ]
-╠➤🍉 [ jumlah ]
-╠➤🍎 [ jumlah ]
-╠➤🍒 [ jumlah ]
-╠➤🍓 [ jumlah ]
-╠➤🥀 [ jumlah ]
-╠➤🐍 [ jumlah ]
-╠➤🦂 [ jumlah ]
-╠➤🗿 [ jumlah ]
-╠➤🌷 [ jumlah ]
-╚════[ °banghw°]══════⊱
-╔══════[ JADI BUG VIP ]══════⊱
-╠➤jadikatalog [reply sticker] jumlah
-╠➤jadipolling [Masukan text nya]
-╠➤jaditroli [Masukan text nya]
-╠➤jadilokas [Masukan text nya]
-╠➤jadidarknes [Masukan text nya]
-╠➤jadidocu [Masukan text nya]
-╠➤jadi𝐯irtext1 [Masukan text nya]
-╠➤jadi𝐯irtext2 [Masukan text nya]
-╠➤jadi𝐯irtext3 [Masukan text nya]
-╠➤jadi𝐯irtext4 [Masukan text nya]
-╠➤jadi𝐯irtext5 [Masukan text nya]
-╠➤jadi𝐯irtext6 [Masukan text nya]
-╠➤jadi𝐯irtext7 [Masukan text nya]
-╠➤jadi𝐯irtext8 [Masukan text nya]
-╠➤jadi𝐯irtext9 [Masukan text nya]
-╠➤jadi𝐯irtext10 [Masukan text nya]
-╠➤jadibugin𝐯ite [Masukan text nya]
-╠➤jadibugpayment [Masukan text nya]
-╠➤jadibugsw [Masukan text nya]
-╠➤jadibugbokep [Masukan text nya]
-╠➤jadibugbutton [Masukan text nya]
-╚════[ °banghw°]══════⊱
-╔════[ VIP ]═══════⊱
-╠➤mexdemam [ jumlah ]
-╠➤banghw1 [ jumlah ]
-╠➤banghw2 [ jumlah ]
-╠➤banghw3 [ jumlah ]
-╠➤banghw4 [ jumlah ]
-╠➤banghw5 [ jumlah ]
-╠➤banghw6 [ jumlah ]
-╠➤banghw7 [ jumlah ]
-╠➤banghw8 [ jumlah ]
-╠➤banghw9 [ jumlah ]
-╠➤banghw10 [ jumlah ]
-╠➤banghw11 [ jumlah ]
-╠➤banghw12 [ jumlah ]
-╠➤banghw13 [ jumlah ]
-╠➤banghw14 [ jumlah ]
-╠➤banghw15 [ jumlah ]
-╠➤banghw16 [ jumlah ]
-╠➤banghw17 [ jumlah ]
-╠➤banghw18 [ jumlah ]
-╠➤banghw19 [ jumlah ]
-╠➤banghw20 [ jumlah ]
-╠➤banghw21 [ jumlah ]
-╠➤banghw22 [ jumlah ]
-╠➤banghw23 [ jumlah ]
-╠➤banghw24 [ jumlah ]
-╠➤banghw25 [ jumlah ]
-╠➤banghw26 [ jumlah ]
-╠➤banghw27 [ jumlah ]
-╠➤banghw28 [ jumlah ]
-╠➤banghw29 [ jumlah ]
-╠➤banghw30 [ jumlah ]
-╠➤banghw31 [ jumlah ]
-╠➤banghw32 [ jumlah ]
-╠➤banghw33 [ jumlah ]
-╠➤banghw34 [ jumlah ]
-╠➤banghw35 [ jumlah ]
-╠➤banghw36 [ jumlah ]
-╠➤banghw37 [ jumlah ]
-╠➤banghw38 [ jumlah ]
-╠➤banghw39 [ jumlah ]
-╠➤banghw40 [ jumlah ]
-╠➤banghw41 [ jumlah ]
-╠➤banghw42 [ jumlah ]
-╠➤banghw43 [ jumlah ]
-╠➤banghw44 [ jumlah ]
-╠➤banghw45 [ jumlah ]
-╠➤banghw46 [ jumlah ]
-╠➤banghw47 [ jumlah ]
-╠➤banghw48 [ jumlah ]
-╠➤banghw49 [ jumlah ]
-╠➤banghw50 [ jumlah ]
-╠➤banghw51 [ jumlah ]
-╠➤banghw52 [ jumlah ]
-╠➤banghw53 [ jumlah ]
-╠➤banghw54 [ jumlah ]
-╠➤banghw55 [ jumlah ]
-╠➤banghw56 [ jumlah ]
-╠➤banghw57 [ jumlah ]
-╠➤banghw58 [ jumlah ]
-╠➤banghw59 [ jumlah ]
-╠➤banghw60 [ jumlah ]
-╠➤buttonkematian [ jumlah ]
-╠➤mexcrot [ jumlah ]
-╠➤banghwnih [ jumlah ]
-╠➤okemex [ jumlah ]
-╠➤ahyangbetul [ jumlah ]
-╠➤ampunsuhu [ jumlah ]
-╚════[ °banghw°]══════
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+┏━━⊱[ SPECIAL ]
+┣❏afk { kasih reactions }
+┣❏banghwghoib [ on / off ]
+┣❏banghwjagoan [ reply target ]
+┣❏banghwsange [ Harus Menjadi Admin ]
+┣❏bugtiktok [ Link ] - Bug Sw
+┗━━⊱[°banghw°]
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+┏━━⊱[ TARGET ]
+┣❏🔥 628xxx|5|5
+┣❏ crashmex 628xxx|5|5
+┣❏banghwskuy 628xxx
+┣❏banghwsantet 628xxx@s.whatsapp.net|10|10s
+┣❏catalogpc 628xxx@s.whatsapp.net|10|10s
+┗━━⊱[°banghw°]
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+𝐊etik > m.chat ( di group dulu )
+┏━━⊱[ GROUP ]
+┣❏gasbanghw 112674448xxx
+┣❏banghwsantetgc  1237891xxxx@g.us|10|10s
+┣❏cataloggc 1237891xxxx@g.us|10|10s
+┗━━⊱[°banghw°]
+┏━━⊱[ BUG ]
+┣❏💀 [ jumlah ]
+┣❏👽 [ jumlah ]
+┣❏☠ [ jumlah ]
+┣❏️👾 [ jumlah ]
+┣❏🪐 [ jumlah ]
+┣❏🦴 [ jumlah ]
+┣❏☝ [ jumlah ]
+┣❏🏻 [ jumlah ]
+┣❏🦖 [ jumlah ]
+┣❏🦕 [ jumlah ]
+┣❏👿 [ jumlah ]
+┣❏🐉 [ jumlah ]
+┣❏⚡ [ jumlah ]
+┣❏💥 [ jumlah ]
+┣❏🔥 [ jumlah ]
+┣❏🌪️ [ jumlah ]
+┣❏🍂 [ jumlah ]
+┣❏🍃 [ jumlah ]
+┣❏🌴 [ jumlah ]
+┣❏🌿 [ jumlah ]
+┣❏🍀 [ jumlah ]
+┣❏🪵 [ jumlah ]
+┣❏🦥 [ jumlah ]
+┣❏🌳 [ jumlah ]
+┣❏🍁 [ jumlah ]
+┣❏🎋 [ jumlah ]
+┣❏🥜 [ jumlah ]
+┣❏🌰 [ jumlah ]
+┣❏🥔 [ jumlah ]
+┣❏🧄 [ jumlah ]
+┣❏🍆 [ jumlah ]
+┣❏🥑 [ jumlah ]
+┣❏🫑 [ jumlah ]
+┣❏🥬 [ jumlah ]
+┣❏🥒 [ jumlah ]
+┣❏🥦 [ jumlah ]
+┣❏🌽 [ jumlah ]
+┣❏🧅 [ jumlah ]
+┣❏🍠 [ jumlah ]
+┣❏🥕 [ jumlah ]
+┣❏🌶️ [ jumlah ]
+┣❏🍅 [ jumlah ]
+┣❏🥥 [ jumlah ]
+┣❏🍇 [ jumlah ]
+┣❏🫐 [ jumlah ]
+┣❏🫒 [ jumlah ]
+┣❏🥝 [ jumlah ]
+┣❏🍐 [ jumlah ]
+┣❏🍏 [ jumlah ]
+┣❏🍈 [ jumlah ]
+┣❏🍋 [ jumlah ]
+┣❏🍌 [ jumlah ]
+┣❏🍍 [ jumlah ]
+┣❏🥭 [ jumlah ]
+┣❏🍊 [ jumlah ]
+┣❏🍑 [ jumlah ]
+┣❏🍉 [ jumlah ]
+┣❏🍎 [ jumlah ]
+┣❏🍒 [ jumlah ]
+┣❏🍓 [ jumlah ]
+┣❏🥀 [ jumlah ]
+┣❏🐍 [ jumlah ]
+┣❏🦂 [ jumlah ]
+┣❏🗿 [ jumlah ]
+┣❏🌷 [ jumlah ]
+┣❏banghw1 [ jumlah ]
+┣❏banghw2 [ jumlah ]
+┣❏banghw3 [ jumlah ]
+┣❏banghw4 [ jumlah ]
+┣❏banghw5 [ jumlah ]
+┣❏banghw6 [ jumlah ]
+┣❏banghw7 [ jumlah ]
+┣❏banghw8 [ jumlah ]
+┣❏banghw9 [ jumlah ]
+┣❏banghw10 [ jumlah ]
+┣❏banghw11 [ jumlah ]
+┣❏banghw12 [ jumlah ]
+┣❏banghw13 [ jumlah ]
+┣❏banghw14 [ jumlah ]
+┣❏banghw15 [ jumlah ]
+┣❏banghw16 [ jumlah ]
+┣❏banghw17 [ jumlah ]
+┣❏banghw18 [ jumlah ]
+┣❏banghw19 [ jumlah ]
+┣❏banghw20 [ jumlah ]
+┣❏banghw21 [ jumlah ]
+┣❏banghw22 [ jumlah ]
+┣❏banghw23 [ jumlah ]
+┣❏banghw24 [ jumlah ]
+┣❏banghw25 [ jumlah ]
+┣❏banghw26 [ jumlah ]
+┣❏banghw27 [ jumlah ]
+┣❏banghw28 [ jumlah ]
+┣❏banghw29 [ jumlah ]
+┣❏banghw30 [ jumlah ]
+┣❏banghw31 [ jumlah ]
+┣❏banghw32 [ jumlah ]
+┣❏banghw33 [ jumlah ]
+┣❏banghw34 [ jumlah ]
+┣❏banghw35 [ jumlah ]
+┣❏banghw36 [ jumlah ]
+┣❏banghw37 [ jumlah ]
+┣❏banghw38 [ jumlah ]
+┣❏banghw39 [ jumlah ]
+┣❏banghw40 [ jumlah ]
+┣❏banghw41 [ jumlah ]
+┣❏banghw42 [ jumlah ]
+┣❏banghw43 [ jumlah ]
+┣❏banghw44 [ jumlah ]
+┣❏banghw45 [ jumlah ]
+┣❏banghw46 [ jumlah ]
+┣❏banghw47 [ jumlah ]
+┣❏banghw48 [ jumlah ]
+┣❏banghw49 [ jumlah ]
+┣❏banghw50 [ jumlah ]
+┣❏banghw51 [ jumlah ]
+┣❏banghw52 [ jumlah ]
+┣❏banghw53 [ jumlah ]
+┣❏banghw54 [ jumlah ]
+┣❏banghw55 [ jumlah ]
+┣❏banghw56 [ jumlah ]
+┣❏banghw57 [ jumlah ]
+┣❏banghw58 [ jumlah ]
+┣❏banghw59 [ jumlah ]
+┣❏banghw60 [ jumlah ]
+┣❏buttonkematian [ jumlah ]
+┣❏mexcrot [ jumlah ]
+┣❏banghwnih [ jumlah ]
+┣❏okemex [ jumlah ]
+┣❏ahyangbetul [ jumlah ]
+┣❏ampunsuhu [ jumlah ]
+┣❏mexdemam [ jumlah ]
+┗━━⊱[°banghw°]
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+┏━━⊱[ JADI BUG VIP ]
+┣❏jadikatalog [reply sticker] jumlah
+┣❏jadijago [Masukan text nya]
+┣❏jadipolling [Masukan text nya]
+┣❏jaditroli [Masukan text nya]
+┣❏jadilokas [Masukan text nya]
+┣❏jadidarknes [Masukan text nya]
+┣❏jadidocu [Masukan text nya]
+┣❏jadibugin𝐯ite [Masukan text nya]
+┣❏jadibugpayment [Masukan text nya]
+┣❏jadibugsw [Masukan text nya]
+┣❏jadibugbokep [Masukan text nya]
+┣❏jadibugbutton [Masukan text nya]
+┣❏jadi𝐯irtext1 [Masukan text nya]
+┣❏jadi𝐯irtext2 [Masukan text nya]
+┣❏jadi𝐯irtext3 [Masukan text nya]
+┣❏jadi𝐯irtext4 [Masukan text nya]
+┣❏jadi𝐯irtext5 [Masukan text nya]
+┣❏jadi𝐯irtext6 [Masukan text nya]
+┣❏jadi𝐯irtext7 [Masukan text nya]
+┣❏jadi𝐯irtext8 [Masukan text nya]
+┣❏jadi𝐯irtext9 [Masukan text nya]
+┣❏jadi𝐯irtext10 [Masukan text nya]
+┣❏jadibug1 [Reply Video Jadi Bug Audio]
+┣❏jadibug2 [Reply Video Jadi Bug Mp3]
+┣❏jadibug3 [Reply Audio Jadi Bug Vn]
+┣❏jadibug4 [Reply Sticker Jadi Bug Gambar]
+┣❏jadibug5 [Reply Gambar Jadi Bug Once] 
+┗━━⊱[°banghw°]
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+┏━━⊱[ VIRTEXT ]
+┣❏banghw𝐯irtext1 [ jumlah ]
+┣❏banghw𝐯irtext2 [ jumlah ]
+┣❏banghw𝐯irtext3 [ jumlah ]
+┣❏banghw𝐯irtext4 [ jumlah ]
+┣❏banghw𝐯irtext5 [ jumlah ]
+┣❏banghw𝐯irtext6 [ jumlah ]
+┣❏banghw𝐯irtext7 [ jumlah ]
+┣❏banghw𝐯irtext8 [ jumlah ]
+┣❏banghw𝐯irtext9 [ jumlah ]
+┣❏banghw𝐯irtext10 [ jumlah ]
+┗━━⊱[°banghw°]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
-╔════[ BUG SPECIAL ]══════⊱
-╠➤afk { kasih reactions }
-╠➤banghwghoib [ on / off ]
-╠➤banghwjagoan [ reply target ]
-╠➤banghwsange [ 𝐇arus Menjadi Admin ]
-╠➤bugtiktok [ Link ] - Bug Sw
-╚════[ °banghw°]══════⊱
+┏━━⊱[ SPAM ]
+┣❏inibutton [ jumlah ]
+┣❏jutrol [ jumlah ]
+┣❏cumadocu [ jumlah ]
+┣❏testbutton [ jumlah ]
+┣❏bully [ jumlah ]
+┣❏waifu [ jumlah ]
+┣❏cuddle [ jumlah ]
+┣❏neko [ jumlah ]
+┣❏cry [ jumlah ]
+┣❏kiss [ jumlah ]
+┣❏hug [ jumlah ]
+┣❏lick [ jumlah ]
+┣❏awoo [ jumlah ]
+┣❏yeet [ jumlah ]
+┣❏bite [ jumlah ]
+┣❏lick [ jumlah ]
+┣❏banghwkangbuttton [ jumlah ]
+┣❏banghwdelay [ jumlah ]
+┣❏banghwstik [ jumlah ]
+┣❏banghwbugie [ jumlah ]
+┣❏buglokas [ jumlah ]
+┣❏banghwtod [ jumlah ]
+┣❏banghwbokep [ jumlah ]
+┣❏bugin𝐯ite [ jumlah ] Pc
+┣❏banghwha [ jumlah ]
+┣❏banghwhi [ jumlah ]
+┣❏banghwbanghwhu [ jumlah ]
+┣❏banghwhe [ jumlah ]
+┣❏banghwba [ jumlah ]
+┣❏banghwbe [ jumlah ]
+┣❏banghwbu [ jumlah ]
+┣❏banghwbi [ jumlah ]
+┣❏banghwca [ jumlah ]
+┣❏banghwci [ jumlah ]
+┣❏banghwcu [ jumlah ]
+┣❏banghwco [ jumlah ]
+┣❏banghwbug1 [ jumlah ]
+┣❏banghwbug2 [ jumlah ]
+┣❏banghwbug3 [ jumlah ]
+┣❏banghwbug4 [ jumlah ]
+┣❏banghwbug5 [ jumlah ]
+┣❏banghwbug6 [ jumlah ]
+┣❏banghwbug7 [ jumlah ]
+┣❏banghwpoll [ jumlah ]
+┣❏banghwtag [ jumlah ]
+┣❏inibug [ jumlah ]
+┣❏hiya [ jumlah ]
+┣❏lokas [ jumlah ]
+┣❏catalog [ jumlah ]
+┣❏banghwdocu [ jumlah ]
+┣❏banghwdaca [ jumlah ]
+┣❏duc [ jumlah ]
+┣❏ducu [ jumlah ]
+┣❏banghwtroli [ jumlah ]
+┣❏banghwtroli2 [ jumlah ]
+┣❏banghwtroli3 [ jumlah ]
+┣❏banghwjhon2 [ jumlah ]
+┣❏banghwjhon [ jumlah ]
+┣❏banghwbutton [ jumlah ]
+┣❏banghwtrol [ jumlah ]
+┣❏banghwkatalog [ jumlah ]
+┣❏banghwducu [ jumlah ]
+┣❏banghwdaca [ jumlah ]
+┣❏banghwdraknes [ jumlah ]
+┣❏banghwslebew [ jumlah ]
+┣❏banghwsu [ jumlah ]
+┣❏banghwtol [ jumlah ]
+┣❏banghwmemek [ jumlah ]
+┣❏banghwcontol [ jumlah ]
+┣❏banghwtext𝐯 [ jumlah ]
+┣❏banghwgas [ jumlah ]
+┣❏banghw𝐯irtext [ jumlah ]
+┣❏banghw𝐯irtext1 [ jumlah ]
+┣❏banghw𝐯irtext2 [ jumlah ]
+┣❏banghw𝐯irtext3 [ jumlah ]
+┣❏banghwcrash [ jumlah ]
+┣❏banghwcrash1 [ jumlah ]
+┣❏banghwcrash2 [ jumlah ]
+┣❏banghwcrash3 [ jumlah ]
+┣❏banghwcrash4 [ jumlah ]
+┣❏banghwcrash5 [ jumlah ]
+┣❏banghwcrash6 [ jumlah ]
+┣❏banghwcrash7 [ jumlah ]
+┣❏banghwlokas [ jumlah ]
+┣❏banghwlokas2 [ jumlah ]
+┣❏banghwkangbug [ jumlah ]
+┣❏banghwkangbug1 [ jumlah ]
+┣❏banghwbar [ jumlah ]
+┣❏banghwoke [ jumlah ]
+┣❏banghwewe [ jumlah ]
+┣❏banghwngentod [ jumlah ]
+┣❏banghw1 [ jumlah ]
+┣❏banghw2 [ jumlah ]
+┣❏banghw3 [ jumlah ]
+┣❏banghw4 [ jumlah ]
+┣❏banghw5 [ jumlah ]
+┣❏banghw6 [ jumlah ]
+┣❏banghw7 [ jumlah ]
+┣❏banghw8 [ jumlah ]
+┣❏banghw9 [ jumlah ]
+┣❏banghw10 [ jumlah ]
+┣❏banghw11 [ jumlah ]
+┣❏banghw12 [ jumlah ]
+┣❏crashar1 [ jumlah ]
+┣❏crashar2 [ jumlah ]
+┣❏crashar3 [ jumlah ]
+┣❏crashar4 [ jumlah ]
+┣❏crashar5 [ jumlah ]
+┣❏crashar6 [ jumlah ]
+┣❏crashar7 [ jumlah ]
+┣❏crashar8 [ jumlah ]
+┣❏crashar9 [ jumlah ]
+┣❏crashar10 [ jumlah ]
+┣❏crashar11 [ jumlah ]
+┣❏crashar12 [ jumlah ]
+┣❏crashar13 [ jumlah ]
+┣❏crashar14 [ jumlah ]
+┣❏crashar15 [ jumlah ]
+┣❏crashar16 [ jumlah ]
+┣❏crashar17 [ jumlah ]
+┣❏crashar18 [ jumlah ]
+┣❏crashar19 [ jumlah ]
+┣❏crashar20 [ jumlah ]
+┣❏spam [ Reply Pesan ]
+┗━━⊱[°banghw°]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ BUG TARGET ]══════⊱
-╠➤🔥 628xxx|5|5
-╠➤ crashmex 628xxx|5|5
-╠➤banghwskuy 628xxx
-╠➤banghwsantet 628xxx@s.whatsapp.net|10|10s
-╠➤catalogpc 628xxx@s.whatsapp.net|10|10s
-╚════[ °banghw°]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-𝐊etik > m.chat ( di group dulu🌷)
-╔══════[ BUG GROUP ]══════⊱
-╠➤gasbanghw 112674448xxx
-╠➤banghwsantetgc  1237891xxxx@g.us|10|10s
-╠➤cataloggc 1237891xxxx@g.us|10|10s
-╚════[ °banghw°]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ VIRTEXT ]══════⊱
-╠➤banghw𝐯irtext1 [ jumlah ]
-╠➤banghw𝐯irtext2 [ jumlah ]
-╠➤banghw𝐯irtext3 [ jumlah ]
-╠➤banghw𝐯irtext4 [ jumlah ]
-╠➤banghw𝐯irtext5 [ jumlah ]
-╠➤banghw𝐯irtext6 [ jumlah ]
-╠➤banghw𝐯irtext7 [ jumlah ]
-╠➤banghw𝐯irtext8 [ jumlah ]
-╠➤banghw𝐯irtext9 [ jumlah ]
-╠➤banghw𝐯irtext10 [ jumlah ]
-╠➤crashar1 [ jumlah ]
-╠➤crashar2 [ jumlah ]
-╠➤crashar3 [ jumlah ]
-╠➤crashar4 [ jumlah ]
-╠➤crashar5 [ jumlah ]
-╠➤crashar6 [ jumlah ]
-╠➤crashar7 [ jumlah ]
-╠➤crashar8 [ jumlah ]
-╠➤crashar9 [ jumlah ]
-╠➤crashar10 [ jumlah ]
-╠➤crashar11 [ jumlah ]
-╠➤crashar12 [ jumlah ]
-╠➤crashar13 [ jumlah ]
-╠➤crashar14 [ jumlah ]
-╠➤crashar15 [ jumlah ]
-╠➤crashar16 [ jumlah ]
-╠➤crashar17 [ jumlah ]
-╠➤crashar18 [ jumlah ]
-╠➤crashar19 [ jumlah ]
-╠➤crashar20 [ jumlah ]
-╚════[ °banghw°]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ BUG SPAM ]══════⊱
-╠➤inibutton [ jumlah ]
-╠➤jutrol [ jumlah ]
-╠➤cumadocu [ jumlah ]
-╠➤testbutton [ jumlah ]
-╠➤bully [ jumlah ]
-╠➤waifu [ jumlah ]
-╠➤cuddle [ jumlah ]
-╠➤neko [ jumlah ]
-╠➤cry [ jumlah ]
-╠➤kiss [ jumlah ]
-╠➤hug [ jumlah ]
-╠➤lick [ jumlah ]
-╠➤awoo [ jumlah ]
-╠➤yeet [ jumlah ]
-╠➤bite [ jumlah ]
-╠➤lick [ jumlah ]
-╠➤banghwkangbuttton [ jumlah ]
-╠➤banghwdelay [ jumlah ]
-╠➤banghwstik [ jumlah ]
-╠➤banghwbugie [ jumlah ]
-╠➤buglokas [ jumlah ]
-╠➤banghwtod [ jumlah ]
-╠➤banghwbokep [ jumlah ]
-╠➤bugin𝐯ite [ jumlah ] Pc
-╠➤banghwha [ jumlah ]
-╠➤banghwhi [ jumlah ]
-╠➤banghwbanghwhu [ jumlah ]
-╠➤banghwhe [ jumlah ]
-╠➤banghwba [ jumlah ]
-╠➤banghwbe [ jumlah ]
-╠➤banghwbu [ jumlah ]
-╠➤banghwbi [ jumlah ]
-╠➤banghwca [ jumlah ]
-╠➤banghwci [ jumlah ]
-╠➤banghwcu [ jumlah ]
-╠➤banghwco [ jumlah ]
-╠➤banghwbug1 [ jumlah ]
-╠➤banghwbug2 [ jumlah ]
-╠➤banghwbug3 [ jumlah ]
-╠➤banghwbug4 [ jumlah ]
-╠➤banghwbug5 [ jumlah ]
-╠➤banghwbug6 [ jumlah ]
-╠➤banghwbug7 [ jumlah ]
-╠➤banghwpoll [ jumlah ]
-╠➤banghwtag [ jumlah ]
-╠➤inibug [ jumlah ]
-╠➤hiya [ jumlah ]
-╠➤lokas [ jumlah ]
-╠➤catalog [ jumlah ]
-╠➤banghwdocu [ jumlah ]
-╠➤banghwdaca [ jumlah ]
-╠➤duc [ jumlah ]
-╠➤ducu [ jumlah ]
-╠➤banghwtroli [ jumlah ]
-╠➤banghwtroli2 [ jumlah ]
-╠➤banghwtroli3 [ jumlah ]
-╠➤banghwjhon2 [ jumlah ]
-╠➤banghwjhon [ jumlah ]
-╠➤banghwbutton [ jumlah ]
-╠➤banghwtrol [ jumlah ]
-╠➤banghwkatalog [ jumlah ]
-╠➤banghwducu [ jumlah ]
-╠➤banghwdaca [ jumlah ]
-╠➤banghwdraknes [ jumlah ]
-╠➤banghwslebew [ jumlah ]
-╠➤banghwsu [ jumlah ]
-╠➤banghwtol [ jumlah ]
-╠➤banghwmemek [ jumlah ]
-╠➤banghwcontol [ jumlah ]
-╠➤banghwtext𝐯 [ jumlah ]
-╠➤banghwgas [ jumlah ]
-╠➤banghw𝐯irtext [ jumlah ]
-╠➤banghw𝐯irtext1 [ jumlah ]
-╠➤banghw𝐯irtext2 [ jumlah ]
-╠➤banghw𝐯irtext3 [ jumlah ]
-╠➤banghwcrash [ jumlah ]
-╠➤banghwcrash1 [ jumlah ]
-╠➤banghwcrash2 [ jumlah ]
-╠➤banghwcrash3 [ jumlah ]
-╠➤banghwcrash4 [ jumlah ]
-╠➤banghwcrash5 [ jumlah ]
-╠➤banghwcrash6 [ jumlah ]
-╠➤banghwcrash7 [ jumlah ]
-╠➤banghwlokas [ jumlah ]
-╠➤banghwlokas2 [ jumlah ]
-╠➤banghwkangbug [ jumlah ]
-╠➤banghwkangbug1 [ jumlah ]
-╠➤banghwbar [ jumlah ]
-╠➤banghwoke [ jumlah ]
-╠➤banghwewe [ jumlah ]
-╠➤banghwngentod [ jumlah ]
-╠➤banghw1 [ jumlah ]
-╠➤banghw2 [ jumlah ]
-╠➤banghw3 [ jumlah ]
-╠➤banghw4 [ jumlah ]
-╠➤banghw5 [ jumlah ]
-╠➤banghw6 [ jumlah ]
-╠➤banghw7 [ jumlah ]
-╠➤banghw8 [ jumlah ]
-╠➤banghw9 [ jumlah ]
-╠➤banghw10 [ jumlah ]
-╠➤banghw11 [ jumlah ]
-╠➤banghw12 [ jumlah ]
-╠➤spam [ Reply Pesan ]
-╚════[ °banghw°]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ JADI BUG ]══════⊱
-╠➤jadibug1 [ Reply Video Jadi Bug Audio ]
-╠➤jadibug2 [ Reply Video Jadi Bug Mp3 ]
-╠➤jadibug3 [ Reply Audio Jadi Bug Vn ]
-╠➤jadibug4 [ Reply Sticker Jadi Bug Gambar ]
-╠➤jadibug5 [ Reply Gambar Jadi Bug Once ] 
-╚════[ °banghw°͢]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ BUG BROADCAST ]══════⊱
-╠➤bugbcimage [ Bug image Broadcast ]
-╠➤bugbcvideo [ Bug Video Broadcast ]
-╠➤bugbcaudio [ Bug Audio Broadcast ]
-╠➤bugbctext [ Bug Text Broadcast ]
-╚════[ °banghw°]══════⊱`,
+┏━━⊱[ BROADCAST ]
+┣❏bugbcimage [ Bug image Broadcast ]
+┣❏bugbcvideo [ Bug Video Broadcast ]
+┣❏bugbcaudio [ Bug Audio Broadcast ]
+┣❏bugbctext [ Bug Text Broadcast ]
+┗━━⊱[°banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5020,20 +5041,20 @@ break
 case 'soundbot': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ SOUNDBOT MENU ]══════⊱ 
-╠➤kal
-╠➤ngakak
-╠➤ketawa
-╠➤awkwk
-╠➤bang
-╠➤nob
-╠➤musik
-╠➤mastah
-╠➤slebew
-╠➤cantik
-╠➤kesel
-╠➤ngeselin
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ SOUNDBOT MENU ] 
+┣❏kal
+┣❏ngakak
+┣❏ketawa
+┣❏awkwk
+┣❏bang
+┣❏nob
+┣❏musik
+┣❏mastah
+┣❏slebew
+┣❏cantik
+┣❏kesel
+┣❏ngeselin
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5047,29 +5068,29 @@ break
 case 'funnmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ FUN MENU ]══════⊱
-╠➤bagaimanakah
-╠➤kapankah
-╠➤apakah
-╠➤bisakah
-╠➤rate
-╠➤wangy
-╠➤gantengcek
-╠➤cekganteng
-╠➤cantikcek
-╠➤cekcantik
-╠➤sangecek
-╠➤ceksange
-╠➤gaycek
-╠➤cekgay
-╠➤lesbicek
-╠➤halah
-╠➤hilih
-╠➤huluh
-╠➤heleh
-╠➤holoh
-╠➤delttt]
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ FUN MENU ]
+┣❏bagaimanakah
+┣❏kapankah
+┣❏apakah
+┣❏bisakah
+┣❏rate
+┣❏wangy
+┣❏gantengcek
+┣❏cekganteng
+┣❏cantikcek
+┣❏cekcantik
+┣❏sangecek
+┣❏ceksange
+┣❏gaycek
+┣❏cekgay
+┣❏lesbicek
+┣❏halah
+┣❏hilih
+┣❏huluh
+┣❏heleh
+┣❏holoh
+┣❏delttt]
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5083,38 +5104,38 @@ break
 case 'primbonmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ PRIMBON MENU ]══════⊱
+┏━━⊱[ PRIMBON MENU ]
 nomorhoki
-╠➤artimimpi
-╠➤artinama
-╠➤ramaljodoh
-╠➤ramaljodohbali
-╠➤suamiistri
-╠➤ramalcinta
-╠➤cocoknama
-╠➤pasangan
-╠➤jadiannikah
-╠➤sifatusaha
-╠➤rezeki
-╠➤pekerjaan
-╠➤nasib
-╠➤penyakit
-╠➤tarot
-╠➤fengshui
-╠➤haribaik
-╠➤harisangar
-╠➤harisial
-╠➤nagahari
-╠➤arahrezeki
-╠➤peruntungan
-╠➤weton
-╠➤karakter
-╠➤keberuntungan
-╠➤memancing
-╠➤masasubur
-╠➤zodiak
-╠➤shio
-╚════[ © °banghw°]══════⊱`,
+┣❏artimimpi
+┣❏artinama
+┣❏ramaljodoh
+┣❏ramaljodohbali
+┣❏suamiistri
+┣❏ramalcinta
+┣❏cocoknama
+┣❏pasangan
+┣❏jadiannikah
+┣❏sifatusaha
+┣❏rezeki
+┣❏pekerjaan
+┣❏nasib
+┣❏penyakit
+┣❏tarot
+┣❏fengshui
+┣❏haribaik
+┣❏harisangar
+┣❏harisial
+┣❏nagahari
+┣❏arahrezeki
+┣❏peruntungan
+┣❏weton
+┣❏karakter
+┣❏keberuntungan
+┣❏memancing
+┣❏masasubur
+┣❏zodiak
+┣❏shio
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5128,12 +5149,12 @@ break
 case 'islamiyah': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ ISLAM MENU ]══════⊱
-╠➤hadist
-╠➤alquran
-╠➤juzamma
-╠➤tafsirsurah
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ ISLAM MENU ]
+┣❏hadist
+┣❏alquran
+┣❏juzamma
+┣❏tafsirsurah
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5147,23 +5168,23 @@ break
 case 'beritanews': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ BERITA MENU ]══════⊱
-╠➤merdeka-news
-╠➤kontan-news 
-╠➤cnbc-news
-╠➤tribun-news
-╠➤indozone-news
-╠➤kompas-news
-╠➤detik-news
-╠➤daily-news
-╠➤inews-news
-╠➤okezone-news
-╠➤sindo-news
-╠➤tempo-news
-╠➤antara-news
-╠➤cnn-news
-╠➤fajar-news
-╚════[ © °banghw°]══════⊱ `,
+┏━━⊱[ BERITA MENU ]
+┣❏merdeka-news
+┣❏kontan-news 
+┣❏cnbc-news
+┣❏tribun-news
+┣❏indozone-news
+┣❏kompas-news
+┣❏detik-news
+┣❏daily-news
+┣❏inews-news
+┣❏okezone-news
+┣❏sindo-news
+┣❏tempo-news
+┣❏antara-news
+┣❏cnn-news
+┣❏fajar-news
+┗━━⊱[ © °banghw°] `,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5177,31 +5198,31 @@ break
 case 'groupmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ GROUP MENU ]══════⊱
-╠➤linkgroup
-╠➤ephemeral [di group]
-╠➤setppgc /full [image]
-╠➤setppbot / full [image]
-╠➤setname [text]
-╠➤setdesc [text]
-╠➤group [option]
-╠➤editinfo [option]
-╠➤add @user
-╠➤kick @user
-╠➤ban [targer]
-╠➤hidetag [text]
-╠➤tagall [text]
-╠➤promote @user
-╠➤demote @user
-╠➤mute on / off
-╠➤getname
-╠➤translate
-╠➤kalkulator
-╠➤intro
-╠➤getpic
-╠➤penjara
-╠➤intro
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ GROUP MENU ]
+┣❏linkgroup
+┣❏ephemeral [di group]
+┣❏setppgc /full [image]
+┣❏setppbot / full [image]
+┣❏setname [text]
+┣❏setdesc [text]
+┣❏group [option]
+┣❏editinfo [option]
+┣❏add @user
+┣❏kick @user
+┣❏ban [targer]
+┣❏hidetag [text]
+┣❏tagall [text]
+┣❏promote @user
+┣❏demote @user
+┣❏mute on / off
+┣❏getname
+┣❏translate
+┣❏kalkulator
+┣❏intro
+┣❏getpic
+┣❏penjara
+┣❏intro
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5215,19 +5236,19 @@ break
 case 'voicechanger': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ VOICE MENU ]══════⊱
-╠➤bass
-╠➤blown
-╠➤deep
-╠➤earrape
-╠➤fast
-╠➤fat
-╠➤nightcore
-╠➤reverse
-╠➤robot
-╠➤slow
-╠➤tupai
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ VOICE MENU ]
+┣❏bass
+┣❏blown
+┣❏deep
+┣❏earrape
+┣❏fast
+┣❏fat
+┣❏nightcore
+┣❏reverse
+┣❏robot
+┣❏slow
+┣❏tupai
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5256,14 +5277,14 @@ break
 case 'searchmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ SEARCH MENU ]══════⊱
-╠➤gimage [query]
-╠➤pinterest [query]
-╠➤wallpaper [query]
-╠➤wikimedia [query]
-╠➤ringtone [query]
-╠➤searchgroups [query]
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ SEARCH MENU ]
+┣❏gimage [query]
+┣❏pinterest [query]
+┣❏wallpaper [query]
+┣❏wikimedia [query]
+┣❏ringtone [query]
+┣❏searchgroups [query]
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5277,26 +5298,26 @@ break
 case 'scrapconvert': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ SCRAPE CONVERT ]]══════⊱
-╠➤attp
-╠➤ttp
-╠➤toimage
-╠➤sticker
-╠➤emojimix
-╠➤emojimix2
-╠➤tovideo
-╠➤togif
-╠➤tourl
-╠➤tovn
-╠➤toonce
-╠➤tomp3
-╠➤toaudio
-╠➤ebinary
-╠➤dbinary
-╠➤styletext
-╠➤smeme
-╠➤ss [url]
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ SCRAPE CONVERT ]]
+┣❏attp
+┣❏ttp
+┣❏toimage
+┣❏sticker
+┣❏emojimix
+┣❏emojimix2
+┣❏tovideo
+┣❏togif
+┣❏tourl
+┣❏tovn
+┣❏toonce
+┣❏tomp3
+┣❏toaudio
+┣❏ebinary
+┣❏dbinary
+┣❏styletext
+┣❏smeme
+┣❏ss [url]
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5310,12 +5331,12 @@ break
 case 'cmdmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ CMD MENU ]══════⊱
-╠➤setcmd
-╠➤listcmd
-╠➤delcmd
-╠➤lockcmd
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ CMD MENU ]
+┣❏setcmd
+┣❏listcmd
+┣❏delcmd
+┣❏lockcmd
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5345,28 +5366,28 @@ break
 case 'ownermenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ OWNER MENU ]══════⊱
-╠➤react [emoji]
-╠➤chat [option]
-╠➤join [link]
-╠➤leave
-╠➤block @user
-╠➤unblock @user
-╠➤bcText [text]
-╠➤setexif
-╠➤ban add
-╠➤ping
-╠➤owner
-╠➤creator
-╠➤delete
-╠➤infochat
-╠➤quoted
-╠➤cowner add 628xx
-╠➤listpc
-╠➤listgc
-╠➤listonline
-╠➤speedtest
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ OWNER MENU ]
+┣❏react [emoji]
+┣❏chat [option]
+┣❏join [link]
+┣❏leave
+┣❏block @user
+┣❏unblock @user
+┣❏bcText [text]
+┣❏setexif
+┣❏ban add
+┣❏ping
+┣❏owner
+┣❏creator
+┣❏delete
+┣❏infochat
+┣❏quoted
+┣❏cowner add 628xx
+┣❏listpc
+┣❏listgc
+┣❏listonline
+┣❏speedtest
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5380,31 +5401,31 @@ break
 case 'scraperimage': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ SCRAPE IMAGE ]══════⊱
-╠➤coffe
-╠➤quotesanime
-╠➤couple
-╠➤wibu
-╠➤loli
-╠➤pat
-╠➤killnom
-╠➤poke
-╠➤wink
-╠➤bonk
-╠➤glomp
-╠➤smug
-╠➤blush
-╠➤wave
-╠➤smile
-╠➤highfive
-╠➤cringe
-╠➤dance
-╠➤happy
-╠➤handhold
-╠➤darkjoke
-╠➤meme
-╠➤meme2
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ SCRAPE IMAGE ]
+┣❏coffe
+┣❏quotesanime
+┣❏couple
+┣❏wibu
+┣❏loli
+┣❏pat
+┣❏killnom
+┣❏poke
+┣❏wink
+┣❏bonk
+┣❏glomp
+┣❏smug
+┣❏blush
+┣❏wave
+┣❏smile
+┣❏highfive
+┣❏cringe
+┣❏dance
+┣❏happy
+┣❏handhold
+┣❏darkjoke
+┣❏meme
+┣❏meme2
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw°͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5419,169 +5440,169 @@ break
 case 'randomsound': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-╔══════[ Sound Menu ]══════⊱
-╠➤banghwsound1
-╠➤banghwsound2
-╠➤banghwsound3
-╠➤banghwsound4
-╠➤banghwsound5
-╠➤banghwsound6
-╠➤banghwsound7
-╠➤banghwsound8
-╠➤banghwsound9
-╠➤banghwsound10
-╠➤banghwsound11
-╠➤banghwsound12
-╠➤banghwsound13
-╠➤banghwsound14
-╠➤banghwsound15
-╠➤banghwsound16
-╠➤banghwsound17
-╠➤banghwsound18
-╠➤banghwsound19
-╠➤banghwsound20
-╠➤banghwsound21
-╠➤banghwsound22
-╠➤banghwsound23
-╠➤banghwsound24
-╠➤banghwsound25
-╠➤banghwsound26
-╠➤banghwsound27
-╠➤banghwsound28
-╠➤banghwsound29
-╠➤banghwsound30
-╠➤banghwsound31
-╠➤banghwsound32
-╠➤banghwsound33
-╠➤banghwsound34
-╠➤banghwsound35
-╠➤banghwsound36
-╠➤banghwsound37
-╠➤banghwsound38
-╠➤banghwsound39
-╠➤banghwsound40
-╠➤banghwsound41
-╠➤banghwsound42
-╠➤banghwsound43
-╠➤banghwsound44
-╠➤banghwsound45
-╠➤banghwsound46
-╠➤banghwsound47
-╠➤banghwsound48
-╠➤banghwsound49
-╠➤banghwsound50
-╠➤banghwsound51
-╠➤banghwsound52
-╠➤banghwsound53
-╠➤banghwsound54
-╠➤banghwsound55
-╠➤banghwsound56
-╠➤banghwsound57
-╠➤banghwsound58
-╠➤banghwsound59
-╠➤banghwsound60
-╠➤banghwsound61
-╠➤banghwsound62
-╠➤banghwsound63
-╠➤banghwsound64
-╠➤banghwsound65
-╠➤banghwsound66
-╠➤banghwsound67
-╠➤banghwsound68
-╠➤banghwsound69
-╠➤banghwsound70
-╠➤banghwsound71
-╠➤banghwsound72
-╠➤banghwsound73
-╠➤banghwsound74
-╠➤banghwsound75
-╠➤banghwsound76
-╠➤banghwsound77
-╠➤banghwsound78
-╠➤banghwsound79
-╠➤banghwsound80
-╠➤banghwsound81
-╠➤banghwsound82
-╠➤banghwsound83
-╠➤banghwsound84
-╠➤banghwsound85
-╠➤banghwsound86
-╠➤banghwsound87
-╠➤banghwsound88
-╠➤banghwsound89
-╠➤banghwsound90
-╠➤banghwsound91
-╠➤banghwsound92
-╠➤banghwsound93
-╠➤banghwsound94
-╠➤banghwsound95
-╠➤banghwsound96
-╠➤banghwsound97
-╠➤banghwsound98
-╠➤banghwsound99
-╠➤banghwsound100
-╠➤banghwsound101
-╠➤banghwsound102
-╠➤banghwsound103
-╠➤banghwsound104
-╠➤banghwsound105
-╠➤banghwsound106
-╠➤banghwsound107
-╠➤banghwsound108
-╠➤banghwsound109
-╠➤banghwsound110
-╠➤banghwsound111
-╠➤banghwsound112
-╠➤banghwsound113
-╠➤banghwsound114
-╠➤banghwsound115
-╠➤banghwsound116
-╠➤banghwsound117
-╠➤banghwsound118
-╠➤banghwsound119
-╠➤banghwsound120
-╠➤banghwsound121
-╠➤banghwsound122
-╠➤banghwsound123
-╠➤banghwsound124
-╠➤banghwsound125
-╠➤banghwsound126
-╠➤banghwsound127
-╠➤banghwsound128
-╠➤banghwsound129
-╠➤banghwsound130
-╠➤banghwsound131
-╠➤banghwsound132
-╠➤banghwsound133
-╠➤banghwsound134
-╠➤banghwsound135
-╠➤banghwsound136
-╠➤banghwsound137
-╠➤banghwsound138
-╠➤banghwsound139
-╠➤banghwsound140
-╠➤banghwsound141
-╠➤banghwsound142
-╠➤banghwsound143
-╠➤banghwsound144
-╠➤banghwsound145
-╠➤banghwsound146
-╠➤banghwsound147
-╠➤banghwsound148
-╠➤banghwsound149
-╠➤banghwsound150
-╠➤banghwsound151
-╠➤banghwsound152
-╠➤banghwsound153
-╠➤banghwsound154
-╠➤banghwsound155
-╠➤banghwsound156
-╠➤banghwsound157
-╠➤banghwsound158
-╠➤banghwsound159
-╠➤banghwsound160
-╠➤banghwsound161
-╚════[ © °banghw°]══════⊱`,
+┏━━⊱[ Sound Menu ]
+┣❏banghwsound1
+┣❏banghwsound2
+┣❏banghwsound3
+┣❏banghwsound4
+┣❏banghwsound5
+┣❏banghwsound6
+┣❏banghwsound7
+┣❏banghwsound8
+┣❏banghwsound9
+┣❏banghwsound10
+┣❏banghwsound11
+┣❏banghwsound12
+┣❏banghwsound13
+┣❏banghwsound14
+┣❏banghwsound15
+┣❏banghwsound16
+┣❏banghwsound17
+┣❏banghwsound18
+┣❏banghwsound19
+┣❏banghwsound20
+┣❏banghwsound21
+┣❏banghwsound22
+┣❏banghwsound23
+┣❏banghwsound24
+┣❏banghwsound25
+┣❏banghwsound26
+┣❏banghwsound27
+┣❏banghwsound28
+┣❏banghwsound29
+┣❏banghwsound30
+┣❏banghwsound31
+┣❏banghwsound32
+┣❏banghwsound33
+┣❏banghwsound34
+┣❏banghwsound35
+┣❏banghwsound36
+┣❏banghwsound37
+┣❏banghwsound38
+┣❏banghwsound39
+┣❏banghwsound40
+┣❏banghwsound41
+┣❏banghwsound42
+┣❏banghwsound43
+┣❏banghwsound44
+┣❏banghwsound45
+┣❏banghwsound46
+┣❏banghwsound47
+┣❏banghwsound48
+┣❏banghwsound49
+┣❏banghwsound50
+┣❏banghwsound51
+┣❏banghwsound52
+┣❏banghwsound53
+┣❏banghwsound54
+┣❏banghwsound55
+┣❏banghwsound56
+┣❏banghwsound57
+┣❏banghwsound58
+┣❏banghwsound59
+┣❏banghwsound60
+┣❏banghwsound61
+┣❏banghwsound62
+┣❏banghwsound63
+┣❏banghwsound64
+┣❏banghwsound65
+┣❏banghwsound66
+┣❏banghwsound67
+┣❏banghwsound68
+┣❏banghwsound69
+┣❏banghwsound70
+┣❏banghwsound71
+┣❏banghwsound72
+┣❏banghwsound73
+┣❏banghwsound74
+┣❏banghwsound75
+┣❏banghwsound76
+┣❏banghwsound77
+┣❏banghwsound78
+┣❏banghwsound79
+┣❏banghwsound80
+┣❏banghwsound81
+┣❏banghwsound82
+┣❏banghwsound83
+┣❏banghwsound84
+┣❏banghwsound85
+┣❏banghwsound86
+┣❏banghwsound87
+┣❏banghwsound88
+┣❏banghwsound89
+┣❏banghwsound90
+┣❏banghwsound91
+┣❏banghwsound92
+┣❏banghwsound93
+┣❏banghwsound94
+┣❏banghwsound95
+┣❏banghwsound96
+┣❏banghwsound97
+┣❏banghwsound98
+┣❏banghwsound99
+┣❏banghwsound100
+┣❏banghwsound101
+┣❏banghwsound102
+┣❏banghwsound103
+┣❏banghwsound104
+┣❏banghwsound105
+┣❏banghwsound106
+┣❏banghwsound107
+┣❏banghwsound108
+┣❏banghwsound109
+┣❏banghwsound110
+┣❏banghwsound111
+┣❏banghwsound112
+┣❏banghwsound113
+┣❏banghwsound114
+┣❏banghwsound115
+┣❏banghwsound116
+┣❏banghwsound117
+┣❏banghwsound118
+┣❏banghwsound119
+┣❏banghwsound120
+┣❏banghwsound121
+┣❏banghwsound122
+┣❏banghwsound123
+┣❏banghwsound124
+┣❏banghwsound125
+┣❏banghwsound126
+┣❏banghwsound127
+┣❏banghwsound128
+┣❏banghwsound129
+┣❏banghwsound130
+┣❏banghwsound131
+┣❏banghwsound132
+┣❏banghwsound133
+┣❏banghwsound134
+┣❏banghwsound135
+┣❏banghwsound136
+┣❏banghwsound137
+┣❏banghwsound138
+┣❏banghwsound139
+┣❏banghwsound140
+┣❏banghwsound141
+┣❏banghwsound142
+┣❏banghwsound143
+┣❏banghwsound144
+┣❏banghwsound145
+┣❏banghwsound146
+┣❏banghwsound147
+┣❏banghwsound148
+┣❏banghwsound149
+┣❏banghwsound150
+┣❏banghwsound151
+┣❏banghwsound152
+┣❏banghwsound153
+┣❏banghwsound154
+┣❏banghwsound155
+┣❏banghwsound156
+┣❏banghwsound157
+┣❏banghwsound158
+┣❏banghwsound159
+┣❏banghwsound160
+┣❏banghwsound161
+┗━━⊱[ © °banghw°]`,
 contextInfo:{"externalAdReply": {"title": `SC © °banghw`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
