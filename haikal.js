@@ -1027,6 +1027,7 @@ for (let i of teks) {
 case '⚔️': case '🗡️': case '🛡️': case '🪞': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, {
 templateButtons: [
 { callButton: { displayText: `Number`, phoneNumber: `6281214281312`}},
 { urlButton: { displayText: `Owner`, url: 'https://wa.me/6281214281312'}},
