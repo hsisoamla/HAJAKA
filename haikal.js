@@ -4607,8 +4607,6 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ° Owner  : 6281214281312
 ° Version : 11
 ° Baileys : 4.4.0
-° Respons  ${latensi.toFixed(4)}
-° Bot Aktif : ${runtime(process.uptime())}
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ┏━━⊱
 ┣❏ Bugmenu  ➥ 
@@ -4667,8 +4665,6 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ° Owner  : 6281214281312
 ° Version : 11
 ° Baileys : 4.4.0
-° Respons  ${latensi.toFixed(4)}
-° Bot Aktif : ${runtime(process.uptime())}
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ^BUG BOT VIP^
 ^BY : ${botname}^
