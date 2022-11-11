@@ -1013,12 +1013,11 @@ caption: ` ${teks}  ${buttonkal}`,
 footer: ` ${teks} `,
 mentions: "",
 templateButtons: [{ urlButton: {displayText: `${teks}`, url: 'www.xnxxhwmods.com'}}, 
-{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '⚔️'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🗡️'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🛡️'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🔧'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🪞'}}],
-				headerType: 6
+				headerType: 5
 }
 haikal.sendMessage(m.chat, message, { quoted : m })
 }
