@@ -4589,9 +4589,7 @@ caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
 ° Owner  : 6281214281312
 ° Version : 11
-° Baileys : 4.4.0
-° Respons  ${latensi.toFixed(4)}
-° Bot Aktif : ${runtime(process.uptime())}`,
+° Baileys : 4.4.0`,
 footer: haikal.user.name,
 buttons: buttons,
 headerType: 3
