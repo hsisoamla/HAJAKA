@@ -1080,8 +1080,7 @@ function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=fun
 }
 }
 break
-case '🌷': case '🎋': case '👽': case '🗿': case '🦂':
-case '🐍': {
+case '🌷': case '🎋': case '👽': case '🗿': case '🦂': case '🖕🏻': case '🏴‍☠️': case '🐍': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1319,7 +1318,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya Dan Fitur Ini Mengandung Bug`, contextInfo: { mentionedJid : mems }}, {quoted:hw})
+haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya Dan Fitur Ini Mengandung Bug`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiNsfww) return m.reply('Sudah Non Aktif')
 let off = ntnsfww.indexOf(from)
@@ -2421,7 +2420,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya`, contextInfo: { mentionedJid : mems }}, {quoted:hw})
+haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiNsfw) return m.reply('Sudah Non Aktif')
 let off = ntnsfw.indexOf(from)
@@ -2454,7 +2453,7 @@ m.reply(mess.wait)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, trapbot, { quoted:hw }).catch(err => {
+haikal.sendMessage(m.chat, trapbot, { quoted:m }).catch(err => {
  return('Error!')
 })
 break
@@ -2469,7 +2468,7 @@ if (!AntiNsfw) return m.reply(mess.nsfw)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, hnekobot, { quoted:hw }).catch(err => {
+haikal.sendMessage(m.chat, hnekobot, { quoted:m }).catch(err => {
  return('Error!')
 })
 break
@@ -2485,7 +2484,7 @@ m.reply(mess.wait)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, nwaifubot, { quoted:hw }).catch(err => {
+haikal.sendMessage(m.chat, nwaifubot, { quoted:m }).catch(err => {
  return('Error!')
 })
 break
@@ -2499,7 +2498,7 @@ m.reply(mess.wait)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, wbuttsss,{ quoted:hw }).catch(err => {
+haikal.sendMessage(m.chat, wbuttsss,{ quoted:m }).catch(err => {
  return('Error!')
 })
 break
@@ -2921,7 +2920,7 @@ caption: `*-------「 GIMAGE SEARCH 」-------*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`
 }
-haikal.sendMessage(m.chat, mllo, { quoted: hw })
+haikal.sendMessage(m.chat, mllo, { quoted:m })
 })
 }
 break
@@ -2950,7 +2949,7 @@ const ko = {
 image: { url: 'https://coffee.alexflipnote.dev/random' },
 caption: `☕ Random Coffe`
 }
-haikal.sendMessage(m.chat, ko, { quoted: hw })
+haikal.sendMessage(m.chat, ko, { quoted:m })
 }
 break
 //=================================================//
@@ -2965,7 +2964,7 @@ const mlo = {
 image: { url: result.image[0] },
 caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`
 }
-haikal.sendMessage(m.chat, mlo, { quoted: hw })
+haikal.sendMessage(m.chat, mlo, { quoted:m })
 }
 break
 //=================================================//
@@ -2980,7 +2979,7 @@ const mbk = {
 image: { url: result.image },
 caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`
 }
-haikal.sendMessage(m.chat, mbk, { quoted: hw })
+haikal.sendMessage(m.chat, mbk, { quoted:m })
 }
 break
 //=================================================//
@@ -2994,7 +2993,7 @@ result = anu[Math.floor(Math.random() * anu.length)]
 const anualas = {
 text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`
 }
-haikal.sendMessage(m.chat, anualas, { quoted: hw })
+haikal.sendMessage(m.chat, anualas, { quoted:m })
 }
 break
 //=================================================//
@@ -4020,7 +4019,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur Bug Admin Dan Penyapa, Harap Berhati-hati`, contextInfo: { mentionedJid : mems }}, {quoted:hw})
+haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur Bug Admin Dan Penyapa, Harap Berhati-hati`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!welcm) return m.reply('Sudah Non Aktif')
 let off = wlcm.indexOf(from)
@@ -4239,6 +4238,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ^𝐀𝐤𝐬𝐞𝐬 𝐕𝐢𝐩 𝐁𝐮𝐠^
 ^𝐇𝐮𝐛 : ${botname}^
 ╔════[ 𝐕𝐈𝐏 ]═══════⊱
+╠➤🏴‍☠️ [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤🖕🏻 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🦂 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🐍 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🗿 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
