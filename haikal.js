@@ -1466,6 +1466,8 @@ case 'dimm57':
 case 'dimm58':
 case 'dimm59':
 case 'dimm60':
+case '🐷':
+case '🐒':
 case '👽': case '☠': case '️👾': case '🪐': case '🦴': case '☝': case '🏻': case '🦖': case '🦕': case '👿': case '🐉': case '⚡': case '💥': case '🔥': case '🌪️': case '🍂': case '🍃': case '🌴': case '🌿': case '🍀': case '🪵': case '🦥': case '🌳': case '🍁': case '🎋': 
 case '🦂':
 case '🐍':
