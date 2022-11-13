@@ -31,8 +31,8 @@ global.botname = '愛 Rip .☆' //ubah jadi nama bot mu, note tanda ' gausah di 
 global.footer = '愛 Rip .☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6281214281312'] // ubah aja pake nomor lu
-global.premium = ['6281214281312'] // ubah aja pake nomor lu
+global.owner = ['6285961176394'] // ubah aja pake nomor lu
+global.premium = ['6285961176394'] // ubah aja pake nomor lu
 global.packname = '愛 Rip .☆' // ubah aja
 global.ownerr = ['愛 Rip .☆'] // ubaha aja
 global.author = '愛 Rip .☆' //ubah aja
