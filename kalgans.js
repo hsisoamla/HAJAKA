@@ -2,7 +2,7 @@
 › Create By Haikal
 › Base Ori Haikal
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : ☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆ */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : nathan☆ */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -148,11 +148,11 @@ ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Ga
 //=================================================//
 if (anu.action == 'add') {
 var buffer = await getBuffer(ppuser)
-let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281214281312@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://eclass.iainsalatiga.ac.id/app/upload/users/1/10892/my_files/XhiroMhonshine.html`
+let link = `https://youtube.com/c/HwModsWa857`
 let buttons = [
-{buttonId: `☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `nathan☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -162,12 +162,12 @@ mentions: [num],
 fileName: `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© ☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆`,
+footer: `© nathan☆`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE ☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆`,
+body: `SUBSCRIBE nathan☆`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -175,11 +175,11 @@ mediaUrl: link,}}}
 //=================================================//
 haikal.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 } else if (anu.action == 'remove') {
-let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281214281312@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `SELAMAT TINGGAL KAWAN 👋 ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://eclass.iainsalatiga.ac.id/app/upload/users/1/10892/my_files/XhiroMhonshine.html'`
+let link = `https://youtube.com/c/HwModsWa857`
 let buttons = [
-{buttonId: `☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `nathan☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -189,12 +189,12 @@ mentions: [num],
 fileName: `SELAMAT TINGGAL 👋 ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© ☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆`,
+footer: `© nathan☆`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE ☆𝐧𝐚𝐭𝐡𝐚𝐧⏧☆`,
+body: `SUBSCRIBE nathan☆`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
