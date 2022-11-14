@@ -102,6 +102,7 @@ const mime = (quoted.msg || quoted).mimetype || ''
 const isMedia = /image|video|sticker|audio/.test(mime)
 const from = mek.key.remoteJid
 const groupMetadata = m.isGroup ? await haikal.groupMetadata(m.chat).catch(e => {}) : ''
+const sender = m.isGroup ? (m.key.participant ? m.key.participant : m.participant) : m.key.remoteJid
 const groupName = m.isGroup ? groupMetadata.subject : ''
 const participants = m.isGroup ? await groupMetadata.participants : ''
 const welcm = m.isGroup ? wlcm.includes(from) : false
@@ -1027,17 +1028,18 @@ break
 case '⚔️': case '🗡️': case '🛡️': case '🪞': case '🔧': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-await haikal.sendMessage(m.chat, {
+await haikal.sendMessage(mm, { 
+text: [sender], 
 templateButtons: [
-{ callButton: { displayText: `Number`, phoneNumber: `6281214281312`}},
-{ urlButton: { displayText: `Owner`, url: 'https://wa.me/6281214281312'}},
-{ urlButton: { displayText: `Website`, url: 'www.xnxx.com'}},
-{ quickReplyButton: { displayText: `MY`, id: `HW MODS WA`}},
-{ quickReplyButton: { displayText: `NAME`, id: `HAIKAL`}},
-{ quickReplyButton: { displayText: `HW MODS WA`, id: `KILL`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `6285714170944`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `6281214281312`}},
+{ urlButton: { displayText: `GROUP HW MODS WA`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
+{ quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
+{ quickReplyButton: { displayText: `HAIKAL`, id: `JAGOAN OM?`}},
 ]
  })
- await sleep(30)
+  await sleep(10000* secon)
  }
  break
 //=================================================//
