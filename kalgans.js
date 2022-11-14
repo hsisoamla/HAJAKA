@@ -2,7 +2,7 @@
 › Create By Haikal
 › Base Ori Haikal
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : kalibat☆ */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : BAJINGAN TERHORMAT☆ */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -152,7 +152,7 @@ let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid"
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
 let link = `https://youtube.com/c/HwModsWa857`
 let buttons = [
-{buttonId: `kalibat☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `BAJINGAN TERHORMAT☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -162,12 +162,12 @@ mentions: [num],
 fileName: `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© kalibat☆`,
+footer: `© BAJINGAN TERHORMAT☆`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE kalibat☆`,
+body: `SUBSCRIBE BAJINGAN TERHORMAT☆`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -179,7 +179,7 @@ let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid"
 he = `SELAMAT TINGGAL KAWAN 👋 ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
 let link = `https://youtube.com/c/HwModsWa857`
 let buttons = [
-{buttonId: `kalibat☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `BAJINGAN TERHORMAT☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -189,12 +189,12 @@ mentions: [num],
 fileName: `SELAMAT TINGGAL 👋 ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© kalibat☆`,
+footer: `© BAJINGAN TERHORMAT☆`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE kalibat☆`,
+body: `SUBSCRIBE BAJINGAN TERHORMAT☆`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
