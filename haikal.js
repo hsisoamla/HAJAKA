@@ -1012,7 +1012,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `🔥 ${teks} ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
 caption: ` ${teks}  ${buttonkal}`,
 footer: ` ${teks} `,
-mentions: "",
+mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `${teks}`, url: 'www.xnxxhwmods.com'}}, 
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🗡️'}},
 { quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🛡️'}},
@@ -1028,8 +1028,8 @@ break
 case '⚔️': case '🗡️': case '🛡️': case '🪞': case '🔧': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-await haikal.sendMessage(mm, { 
-text: [sender], 
+await haikal.sendMessage(m.chat, { 
+text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `6285714170944`}},
 { callButton: { displayText: `OWNER`, phoneNumber: `6281214281312`}},
@@ -1422,7 +1422,7 @@ break
 //=================================================//
 //CUMAN WORKS DI BAILEYS TERTENTU KALAU MAU GUNAKAN 
 //BUG BARU INI KALIAN BISA ORDER KE GUA YA GUYS YAH
-case '🔥': case '🗿': case 'mekcrot': {
+case '🔥': case: '🗿': case 'mekcrot': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 mm = text.split("|")[0]+'@s.whatsapp.net'
@@ -1468,7 +1468,7 @@ case 'banghw57':
 case 'banghw58':
 case 'banghw59':
 case 'banghw60':
-case '👽': case '☠': case '️👾': case '🪐': case '🦴': case '☝': case '🏻': case '🦖': case '🦕': case '👿': case '🐉': case '⚡': case '💥': case '🔥': case '🌪️': case '🍂': case '🍃': case '🌴': case '🌿': case '🍀': case '🪵': case '🦥': case '🌳': case '🍁': case '🎋': 
+case '👽': case '☠️': case '️👾': case '🪐': case '🦴': case '☝': case '🏻': case '🦖': case '🦕': case '👿': case '🐉': case '⚡': case '💥': case '🔥': case '🌪️': case '🍂': case '🍃': case '🌴': case '🌿': case '🍀': case '🪵': case '🦥': case '🌳': case '🍁': case '🎋': 
 case '🦂':
 case '🐍':
 case '🍓':
@@ -4694,7 +4694,7 @@ Ketik > m.chat ( di group dulu )
 ┏━━⊱[ BUG ]
 ┣❏💀 [ jumlah ]
 ┣❏👽 [ jumlah ]
-┣❏☠ [ jumlah ]
+┣❏☠️ [ jumlah ]
 ┣❏️👾 [ jumlah ]
 ┣❏🪐 [ jumlah ]
 ┣❏🦴 [ jumlah ]
@@ -4755,7 +4755,6 @@ Ketik > m.chat ( di group dulu )
 ┣❏🥀 [ jumlah ]
 ┣❏🐍 [ jumlah ]
 ┣❏🦂 [ jumlah ]
-┣❏🗿 [ jumlah ]
 ┣❏🌷 [ jumlah ]
 ┣❏banghw1 [ jumlah ]
 ┣❏banghw2 [ jumlah ]
