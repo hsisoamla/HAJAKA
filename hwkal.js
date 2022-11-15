@@ -26,16 +26,16 @@ global.ig = '@hikal857' // ubah aja
 global.email = 'denyp857@gmail.com'
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = 'banghw☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'banghw☆' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = 'banghw☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'jekkSlebew☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.botname = 'jekkSlebew☆' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.footer = 'jekkSlebew☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6281214281312'] // ubah aja pake nomor lu
-global.premium = ['6281214281312'] // ubah aja pake nomor lu
-global.packname = 'banghw☆' // ubah aja
-global.ownerr = ['banghw☆'] // ubaha aja
-global.author = 'banghw☆' //ubah aja
+global.owner = ['62895601928090'] // ubah aja pake nomor lu
+global.premium = ['62895601928090'] // ubah aja pake nomor lu
+global.packname = 'jekkSlebew BOT WA' // ubah aja
+global.ownerr = ['jekkSlebew☆'] // ubaha aja
+global.author = 'By To1' //ubah aja
 global.sessionName = './sessionye/haikal' //Gausaj Di Ubah
 global.prefa = ['','!','.',',','🐤','🗿'] // Gausah Mendingan 
 global.sp = '⭔' // Gausah Juga
